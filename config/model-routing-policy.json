@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1",
+  "purpose": "Default routing policy for interpreting generated model buckets before Workframe/autocorp consumes them.",
+  "trust_tiers": {
+    "free": {
+      "allowed_data": "public_or_low_sensitivity",
+      "allowed_actions": ["draft", "summarize", "suggest_patch", "generate_tests"],
+      "forbidden_actions": ["handle_secrets", "process_customer_data", "commit_directly", "deploy", "make_financial_decisions"],
+      "review_required": true
+    },
+    "paid": {
+      "allowed_data": "normal_project_context_subject_to_repo_policy",
+      "allowed_actions": ["draft", "summarize", "suggest_patch", "generate_tests", "review_patch"],
+      "forbidden_actions": ["handle_credentials_without_explicit_policy", "deploy_without_approval", "make_financial_decisions"],
+      "review_required": true
+    },
+    "premium": {
+      "allowed_data": "important_project_context_subject_to_repo_policy",
+      "allowed_actions": ["architecture_review", "security_review", "final_patch_review", "high_reasoning_planning"],
+      "forbidden_actions": ["deploy_without_approval", "send_email_without_approval", "payment_or_billing_mutation"],
+      "review_required": true
+    }
+  },
+  "routing_rules": [
+    "Use free models as local-dev/opportunistic workers only unless a human explicitly promotes them.",
+    "Use paid primary models for normal coding and documentation after matrix validation.",
+    "Use premium/high_reasoning models for architecture, security, final review, and ambiguous failures.",
+    "Never treat OpenRouter popularity as quality proof.",
+    "Do not promote metadata-backed roles to eval-backed roles until eval results exist."
+  ]
+}
