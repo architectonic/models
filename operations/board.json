@@ -1,0 +1,129 @@
+{
+  "schema_version": "0.1",
+  "repo": "architectonic/models",
+  "board_type": "repo_native_value_board",
+  "updated_at": "2026-07-08T20:00:00-03:00",
+  "purpose": "Force model-market intelligence heartbeats to produce usable routing artifacts, validated price/capability matrices, and eval-backed model roles instead of unbounded model commentary.",
+  "selection_rule": "Operators must consume the highest-priority ready ticket allowed by gates.md. If live provider access is blocked, produce a precise repair/scope note and keep generated routes marked bootstrap-only.",
+  "definition_of_done": "A done ticket must create or validate a raw snapshot, normalized matrix, router config, eval task, eval result, or material routing change. Status/report updates alone are not done.",
+  "tickets": [
+    {
+      "id": "models-bootstrap-openrouter-catalog-001",
+      "status": "done",
+      "priority": 1,
+      "role": "Tool Builder",
+      "mission": "Initialize the repo with an OpenRouter model catalog pipeline, routing schema, seed model matrix, and board-first operations protocol.",
+      "value_type": "model_catalog_bootstrap",
+      "input_artifacts": [
+        "OpenRouter /api/v1/models public metadata",
+        "architectonic operator board/heartbeat/gate patterns"
+      ],
+      "output_artifacts": [
+        "scripts/openrouter_model_catalog.py",
+        "data/openrouter/generated/model-routing-matrix.csv",
+        "data/openrouter/generated/model-routing-matrix.json",
+        "data/openrouter/generated/model-router.generated.json",
+        "operations/heartbeat.md",
+        "operations/gates.md",
+        "operations/board.json",
+        "operations/value-ledger.json"
+      ],
+      "external_action_allowed": false,
+      "required_connector": "GitHub for writes; OpenRouter public metadata for source model fields",
+      "acceptance_tests": [
+        "bootstrap script runs without network using seed data",
+        "generated CSV has required columns and no duplicate model_id rows",
+        "router config groups models by use case and role",
+        "board and value ledger are initialized for later scheduled heartbeats"
+      ],
+      "acceptance_result": "passed_locally_on_2026-07-08",
+      "supervisor_gate": "Next live snapshot ticket should remain ready; production routing remains advisory until live top-weekly snapshot and local eval harness exist.",
+      "kill_condition": "If OpenRouter metadata shape cannot be parsed, block live snapshot ticket and create parser repair ticket.",
+      "next_ticket_on_success": "models-live-openrouter-snapshot-001",
+      "next_ticket_on_failure": "models-bootstrap-parser-repair-001"
+    },
+    {
+      "id": "models-live-openrouter-snapshot-001",
+      "status": "ready",
+      "priority": 2,
+      "role": "Data Collector",
+      "mission": "Fetch a live OpenRouter snapshot, store raw provider metadata, and rebuild generated model outputs from live data.",
+      "value_type": "provider_snapshot",
+      "input_artifacts": [
+        "scripts/openrouter_model_catalog.py"
+      ],
+      "output_artifacts": [
+        "data/openrouter/raw/YYYY-MM-DD/models.json",
+        "data/openrouter/generated/model-routing-matrix.csv",
+        "data/openrouter/generated/model-router.generated.json"
+      ],
+      "external_action_allowed": false,
+      "required_connector": "OpenRouter API",
+      "acceptance_tests": [
+        "stores raw models snapshot without hand edits",
+        "rebuilds generated matrix from raw snapshot",
+        "validates generated CSV"
+      ],
+      "supervisor_gate": "Top-50 routing claims require live snapshot or explicit bootstrap-only label.",
+      "kill_condition": "Block if OpenRouter API shape changes and generated matrix validation fails.",
+      "next_ticket_on_success": "models-routing-matrix-rank-top50-001",
+      "next_ticket_on_failure": "models-openrouter-fetch-repair-001"
+    },
+    {
+      "id": "models-routing-matrix-rank-top50-001",
+      "status": "blocked",
+      "priority": 3,
+      "role": "Model Analyst",
+      "mission": "Classify the top 50 live OpenRouter text models by price, capability, context, popularity, and use-case routing role.",
+      "value_type": "routing_matrix",
+      "input_artifacts": [
+        "data/openrouter/raw/YYYY-MM-DD/models.json",
+        "data/openrouter/generated/model-routing-matrix.csv"
+      ],
+      "output_artifacts": [
+        "reports/routing/YYYY-MM-DD-top50-routing-review.md",
+        "data/openrouter/generated/model-router.generated.json"
+      ],
+      "external_action_allowed": false,
+      "required_connector": null,
+      "acceptance_tests": [
+        "ranks at least 50 models when live data contains at least 50 text models",
+        "separates metadata-only claims from eval-backed claims",
+        "lists primary/fallback/high_reasoning/cheap/free/avoid buckets per use case"
+      ],
+      "supervisor_gate": "Requires live snapshot ticket done in the same or prior run.",
+      "kill_condition": "Block if fewer than 50 eligible text models exist in current snapshot or validation fails.",
+      "next_ticket_on_success": "models-eval-harness-seed-001",
+      "next_ticket_on_failure": "models-live-openrouter-snapshot-001"
+    },
+    {
+      "id": "models-eval-harness-seed-001",
+      "status": "blocked",
+      "priority": 4,
+      "role": "Evaluator",
+      "mission": "Add a small repo-local eval harness so model roles can be promoted from metadata-backed to eval-backed.",
+      "value_type": "eval_foundation",
+      "input_artifacts": [
+        "data/openrouter/generated/model-routing-matrix.csv"
+      ],
+      "output_artifacts": [
+        "evals/coding/fix-typescript-error.md",
+        "evals/testing/write-edge-case-tests.md",
+        "evals/documentation/summarize-repo-readme.md",
+        "docs/eval-harness.md"
+      ],
+      "external_action_allowed": false,
+      "required_connector": null,
+      "acceptance_tests": [
+        "defines scoring fields for pass/fail, tests, cost, latency, and human quality",
+        "contains no provider secrets",
+        "supports later model-by-model runs without changing prompt fixtures",
+        "feeds future routing promotion/demotion decisions"
+      ],
+      "supervisor_gate": "No model should be labeled eval-backed until at least one eval run exists.",
+      "kill_condition": "Block if eval fixtures are generic or cannot falsify model quality claims.",
+      "next_ticket_on_success": "models-weekly-refresh-action-001",
+      "next_ticket_on_failure": "models-routing-matrix-rank-top50-001"
+    }
+  ]
+}
