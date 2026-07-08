@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "date": "2026-07-08",
+  "repo": "architectonic/models",
+  "state": "initialized_bootstrap_only",
+  "current_ticket": "models-bootstrap-openrouter-catalog-001",
+  "completed_tickets": ["models-bootstrap-openrouter-catalog-001"],
+  "next_ticket": "models-live-openrouter-snapshot-001",
+  "generated_outputs": {
+    "matrix_csv": "data/openrouter/generated/model-routing-matrix.csv",
+    "router_config": "data/openrouter/generated/model-router.generated.json"
+  },
+  "validation": {
+    "seed_command": "python scripts/openrouter_model_catalog.py seed --snapshot-date 2026-07-08",
+    "validate_command": "python scripts/openrouter_model_catalog.py validate",
+    "status": "passed_locally"
+  },
+  "blockers": [
+    "Live top-weekly ranking requires runtime network access.",
+    "Model quality is metadata-backed only until repo-local eval harness and eval results exist."
+  ]
+}
