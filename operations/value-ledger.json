@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "repo": "architectonic/models",
+  "purpose": "Machine-readable record of model metadata, routing, pricing, eval, and refresh-loop value events.",
+  "events": [
+    {
+      "id": "models-bootstrap-openrouter-catalog-20260708",
+      "timestamp": "2026-07-08T20:00:00-03:00",
+      "type": "governance_and_tooling_bootstrap",
+      "source": "manual GitHub connector pass",
+      "ticket_id": "models-bootstrap-openrouter-catalog-001",
+      "artifact_paths": [
+        "scripts/openrouter_model_catalog.py",
+        "data/openrouter/generated/model-routing-matrix.csv",
+        "data/openrouter/generated/model-router.generated.json",
+        "operations/board.json",
+        "operations/gates.md",
+        "operations/heartbeat.md"
+      ],
+      "summary": "Installed a board-driven model intelligence repo with OpenRouter metadata ingestion, seed matrix generation, router config generation, validation, and future live-refresh support.",
+      "value_delta": "positive_foundation",
+      "evidence": {
+        "local_commands": [
+          "python scripts/openrouter_model_catalog.py seed --snapshot-date 2026-07-08",
+          "python scripts/openrouter_model_catalog.py validate"
+        ],
+        "generated_seed_rows": 10,
+        "bootstrap_only": true
+      }
+    }
+  ]
+}
