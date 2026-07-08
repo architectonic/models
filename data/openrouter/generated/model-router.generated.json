@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-07-08T13:12:10.076172+00:00",
+  "buckets": {
+    "coding": {
+      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "nex-agi/nex-n2-mini"],
+      "high_reasoning": [],
+      "cheap": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "free": [],
+      "fallback": ["qwen/qwen3.7-plus"],
+      "candidate": [],
+      "unknown": [],
+      "avoid": []
+    },
+    "documentation": {
+      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code"],
+      "high_reasoning": [],
+      "cheap": ["qwen/qwen3.7-plus", "nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free", "nex-agi/nex-n2-mini"],
+      "free": [],
+      "fallback": [],
+      "candidate": [],
+      "unknown": [],
+      "avoid": []
+    },
+    "testing": {
+      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "nex-agi/nex-n2-mini"],
+      "high_reasoning": [],
+      "cheap": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "free": [],
+      "fallback": ["qwen/qwen3.7-plus"],
+      "candidate": [],
+      "unknown": [],
+      "avoid": []
+    },
+    "architecture": {
+      "primary": [],
+      "high_reasoning": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
+      "cheap": [],
+      "free": [],
+      "fallback": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "candidate": [],
+      "unknown": [],
+      "avoid": []
+    },
+    "planning": {
+      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
+      "high_reasoning": [],
+      "cheap": [],
+      "free": [],
+      "fallback": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "candidate": [],
+      "unknown": [],
+      "avoid": []
+    },
+    "reasoning": {
+      "primary": [],
+      "high_reasoning": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
+      "cheap": [],
+      "free": [],
+      "fallback": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "candidate": [],
+      "unknown": [],
+      "avoid": []
+    },
+    "local_dev": {
+      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
+      "high_reasoning": [],
+      "cheap": [],
+      "free": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "fallback": [],
+      "candidate": [],
+      "unknown": [],
+      "avoid": []
+    },
+    "production": {
+      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
+      "high_reasoning": [],
+      "cheap": [],
+      "free": [],
+      "fallback": [],
+      "candidate": [],
+      "unknown": [],
+      "avoid": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"]
+    }
+  }
+}
