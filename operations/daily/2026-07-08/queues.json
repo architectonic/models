@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1",
+  "date": "2026-07-08",
+  "repo": "architectonic/models",
+  "ready": [
+    "models-live-openrouter-snapshot-001"
+  ],
+  "blocked": [
+    "models-routing-matrix-rank-top50-001",
+    "models-eval-harness-seed-001"
+  ],
+  "done": [
+    "models-bootstrap-openrouter-catalog-001"
+  ],
+  "notes": [
+    "Bootstrap matrix is representative, not canonical top-50.",
+    "Run the live snapshot ticket before using this repo for actual routing decisions.",
+    "Model quality remains metadata-backed until eval fixtures and eval results exist."
+  ]
+}
