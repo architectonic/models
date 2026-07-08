@@ -1,6 +1,6 @@
 {
-  "github_run_id": "28946888032",
-  "github_sha": "432dd9e2df836344c42e7dfaabd51e00deabaa54",
+  "github_run_id": "28946895772",
+  "github_sha": "b32ce6430e39213f42211c2f33ba1bf6699cf38a",
   "matrix_exists": true,
   "matrix_path": "data/openrouter/generated/model-routing-matrix.csv",
   "matrix_row_count": 343,
@@ -9,7 +9,7 @@
   "raw_model_count": 343,
   "raw_models_exists": true,
   "raw_models_path": "data/openrouter/raw/2026-07-08/models.json",
-  "recorded_at_utc": "2026-07-08T13:36:36Z",
+  "recorded_at_utc": "2026-07-08T13:36:50Z",
   "router_config_exists": true,
   "snapshot_outcome": "success",
   "validate_outcome": "success",
