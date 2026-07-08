@@ -1,86 +1,511 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-07-08T13:12:10.076172+00:00",
+  "generated_at": "2026-07-08T13:36:36.506700+00:00",
   "buckets": {
     "coding": {
-      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "nex-agi/nex-n2-mini"],
+      "primary": [
+        "anthropic/claude-fable-5",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2",
+        "google/gemini-3.1-pro-preview",
+        "qwen/qwen3.7-max"
+      ],
       "high_reasoning": [],
-      "cheap": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "cheap": [
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "google/gemma-4-31b-it:free",
+        "google/gemma-4-26b-a4b-it:free",
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free",
+        "openai/gpt-oss-120b:free",
+        "openai/gpt-oss-20b:free",
+        "nvidia/nemotron-3-nano-30b-a3b:free"
+      ],
       "free": [],
-      "fallback": ["qwen/qwen3.7-plus"],
+      "fallback": [
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "openai/gpt-5.4-nano",
+        "qwen/qwen3.7-plus",
+        "qwen/qwen3.6-plus",
+        "qwen/qwen3.6-27b",
+        "minimax/minimax-m2.7",
+        "anthropic/claude-sonnet-4.5"
+      ],
       "candidate": [],
-      "unknown": [],
+      "unknown": [
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "openai/o3-mini-high",
+        "openai/gpt-4",
+        "qwen/qwen3-vl-235b-a22b-instruct",
+        "undi95/remm-slerp-l2-13b",
+        "microsoft/wizardlm-2-8x22b",
+        "arcee-ai/coder-large"
+      ],
       "avoid": []
     },
     "documentation": {
-      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code"],
+      "primary": [
+        "anthropic/claude-fable-5",
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2"
+      ],
       "high_reasoning": [],
-      "cheap": ["qwen/qwen3.7-plus", "nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free", "nex-agi/nex-n2-mini"],
+      "cheap": [
+        "xiaomi/mimo-v2.5-pro",
+        "deepseek/deepseek-v4-pro",
+        "minimax/minimax-m3",
+        "deepseek/deepseek-v4-flash",
+        "openai/gpt-5.4-nano",
+        "qwen/qwen3.7-plus",
+        "qwen/qwen3.6-plus",
+        "qwen/qwen3.6-27b"
+      ],
       "free": [],
-      "fallback": [],
+      "fallback": [
+        "anthropic/claude-sonnet-4.5",
+        "openai/gpt-5.1",
+        "mistralai/mistral-medium-3-5",
+        "anthropic/claude-haiku-4.5",
+        "x-ai/grok-4.3",
+        "openai/o1",
+        "openai/gpt-5",
+        "anthropic/claude-sonnet-4"
+      ],
       "candidate": [],
-      "unknown": [],
+      "unknown": [
+        "cohere/command-a",
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "openai/gpt-4",
+        "sao10k/l3.1-euryale-70b",
+        "mancer/weaver",
+        "qwen/qwen2.5-vl-72b-instruct",
+        "arcee-ai/virtuoso-large"
+      ],
       "avoid": []
     },
     "testing": {
-      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "nex-agi/nex-n2-mini"],
+      "primary": [
+        "anthropic/claude-fable-5",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2",
+        "google/gemini-3.1-pro-preview",
+        "qwen/qwen3.7-max"
+      ],
       "high_reasoning": [],
-      "cheap": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "cheap": [
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "google/gemma-4-31b-it:free",
+        "google/gemma-4-26b-a4b-it:free",
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free",
+        "openai/gpt-oss-120b:free",
+        "openai/gpt-oss-20b:free",
+        "nvidia/nemotron-3-nano-30b-a3b:free"
+      ],
       "free": [],
-      "fallback": ["qwen/qwen3.7-plus"],
+      "fallback": [
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "openai/gpt-5.4-nano",
+        "qwen/qwen3.7-plus",
+        "qwen/qwen3.6-plus",
+        "qwen/qwen3.6-27b",
+        "minimax/minimax-m2.7",
+        "anthropic/claude-sonnet-4.5"
+      ],
       "candidate": [],
-      "unknown": [],
+      "unknown": [
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "openai/o3-mini-high",
+        "openai/gpt-4",
+        "undi95/remm-slerp-l2-13b",
+        "microsoft/wizardlm-2-8x22b",
+        "arcee-ai/coder-large",
+        "google/gemma-2-27b-it"
+      ],
+      "avoid": []
+    },
+    "frontend": {
+      "primary": [
+        "anthropic/claude-fable-5",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2",
+        "google/gemini-3.1-pro-preview",
+        "qwen/qwen3.7-max"
+      ],
+      "high_reasoning": [],
+      "cheap": [
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "google/gemma-4-31b-it:free",
+        "google/gemma-4-26b-a4b-it:free",
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free",
+        "openai/gpt-oss-120b:free",
+        "openai/gpt-oss-20b:free",
+        "nvidia/nemotron-3-nano-30b-a3b:free"
+      ],
+      "free": [],
+      "fallback": [
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "openai/gpt-5.4-nano",
+        "qwen/qwen3.7-plus",
+        "qwen/qwen3.6-plus",
+        "qwen/qwen3.6-27b",
+        "minimax/minimax-m2.7",
+        "anthropic/claude-sonnet-4.5"
+      ],
+      "candidate": [],
+      "unknown": [
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "openai/o3-mini-high",
+        "openai/gpt-4",
+        "qwen/qwen3-vl-235b-a22b-instruct",
+        "undi95/remm-slerp-l2-13b",
+        "microsoft/wizardlm-2-8x22b",
+        "arcee-ai/coder-large"
+      ],
+      "avoid": []
+    },
+    "backend": {
+      "primary": [
+        "anthropic/claude-fable-5",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2",
+        "google/gemini-3.1-pro-preview",
+        "qwen/qwen3.7-max"
+      ],
+      "high_reasoning": [],
+      "cheap": [
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "google/gemma-4-31b-it:free",
+        "google/gemma-4-26b-a4b-it:free",
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free",
+        "openai/gpt-oss-120b:free",
+        "openai/gpt-oss-20b:free",
+        "nvidia/nemotron-3-nano-30b-a3b:free"
+      ],
+      "free": [],
+      "fallback": [
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "openai/gpt-5.4-nano",
+        "qwen/qwen3.7-plus",
+        "qwen/qwen3.6-plus",
+        "qwen/qwen3.6-27b",
+        "minimax/minimax-m2.7",
+        "anthropic/claude-sonnet-4.5"
+      ],
+      "candidate": [],
+      "unknown": [
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "openai/o3-mini-high",
+        "openai/gpt-4",
+        "qwen/qwen3-vl-235b-a22b-instruct",
+        "undi95/remm-slerp-l2-13b",
+        "microsoft/wizardlm-2-8x22b",
+        "arcee-ai/coder-large"
+      ],
       "avoid": []
     },
     "architecture": {
       "primary": [],
-      "high_reasoning": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
-      "cheap": [],
+      "high_reasoning": [
+        "anthropic/claude-fable-5",
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2"
+      ],
+      "cheap": [
+        "openai/gpt-4o-mini",
+        "google/gemma-3n-e4b-it",
+        "google/gemma-3-4b-it",
+        "openrouter/bodybuilder",
+        "openrouter/fusion",
+        "openrouter/pareto-code",
+        "mistralai/mistral-nemo",
+        "sao10k/l3-lunaris-8b"
+      ],
       "free": [],
-      "fallback": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "fallback": [
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "google/gemma-4-31b-it:free",
+        "openai/o1",
+        "google/gemma-4-26b-a4b-it:free",
+        "openai/gpt-5",
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "anthropic/claude-sonnet-4",
+        "cohere/north-mini-code:free"
+      ],
       "candidate": [],
-      "unknown": [],
-      "avoid": []
+      "unknown": [
+        "cohere/command-a",
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "mistralai/mistral-medium-3.1",
+        "openai/gpt-4",
+        "openai/gpt-3.5-turbo",
+        "deepseek/deepseek-chat",
+        "qwen/qwen-plus"
+      ],
+      "avoid": [
+        "meta-llama/llama-3.3-70b-instruct:free",
+        "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+        "google/lyria-3-clip-preview",
+        "google/lyria-3-pro-preview",
+        "liquid/lfm-2.5-1.2b-instruct:free",
+        "meta-llama/llama-3.2-3b-instruct:free",
+        "nousresearch/hermes-3-llama-3.1-405b:free",
+        "qwen/qwen3-coder:free"
+      ]
     },
     "planning": {
-      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
+      "primary": [
+        "anthropic/claude-fable-5",
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2"
+      ],
       "high_reasoning": [],
-      "cheap": [],
+      "cheap": [
+        "google/gemma-3n-e4b-it",
+        "google/gemma-3-4b-it",
+        "openrouter/bodybuilder",
+        "openrouter/fusion",
+        "openrouter/pareto-code",
+        "mistralai/mistral-nemo",
+        "sao10k/l3-lunaris-8b",
+        "gryphe/mythomax-l2-13b"
+      ],
       "free": [],
-      "fallback": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "fallback": [
+        "anthropic/claude-sonnet-4.5",
+        "openai/gpt-5.1",
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "mistralai/mistral-medium-3-5",
+        "z-ai/glm-4.7",
+        "anthropic/claude-haiku-4.5",
+        "google/gemma-4-31b-it:free",
+        "x-ai/grok-4.3"
+      ],
       "candidate": [],
-      "unknown": [],
-      "avoid": []
+      "unknown": [
+        "cohere/command-a",
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "openai/gpt-4",
+        "openai/gpt-3.5-turbo",
+        "undi95/remm-slerp-l2-13b",
+        "microsoft/wizardlm-2-8x22b",
+        "arcee-ai/coder-large"
+      ],
+      "avoid": [
+        "meta-llama/llama-3.3-70b-instruct:free",
+        "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+        "google/lyria-3-clip-preview",
+        "google/lyria-3-pro-preview",
+        "liquid/lfm-2.5-1.2b-instruct:free",
+        "meta-llama/llama-3.2-3b-instruct:free",
+        "nousresearch/hermes-3-llama-3.1-405b:free",
+        "qwen/qwen3-coder:free"
+      ]
     },
     "reasoning": {
       "primary": [],
-      "high_reasoning": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
-      "cheap": [],
+      "high_reasoning": [
+        "anthropic/claude-fable-5",
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2"
+      ],
+      "cheap": [
+        "openai/gpt-4o-mini",
+        "google/gemma-3n-e4b-it",
+        "google/gemma-3-4b-it",
+        "openrouter/bodybuilder",
+        "openrouter/fusion",
+        "openrouter/pareto-code",
+        "mistralai/mistral-nemo",
+        "sao10k/l3-lunaris-8b"
+      ],
       "free": [],
-      "fallback": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
+      "fallback": [
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "google/gemma-4-31b-it:free",
+        "openai/o1",
+        "google/gemma-4-26b-a4b-it:free",
+        "openai/gpt-5",
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "anthropic/claude-sonnet-4",
+        "cohere/north-mini-code:free"
+      ],
       "candidate": [],
-      "unknown": [],
-      "avoid": []
+      "unknown": [
+        "cohere/command-a",
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "mistralai/mistral-medium-3.1",
+        "openai/gpt-4",
+        "openai/gpt-3.5-turbo",
+        "deepseek/deepseek-chat",
+        "qwen/qwen-plus"
+      ],
+      "avoid": [
+        "meta-llama/llama-3.3-70b-instruct:free",
+        "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+        "google/lyria-3-clip-preview",
+        "google/lyria-3-pro-preview",
+        "liquid/lfm-2.5-1.2b-instruct:free",
+        "meta-llama/llama-3.2-3b-instruct:free",
+        "nousresearch/hermes-3-llama-3.1-405b:free",
+        "qwen/qwen3-coder:free"
+      ]
     },
     "local_dev": {
-      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
+      "primary": [
+        "anthropic/claude-fable-5",
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2"
+      ],
       "high_reasoning": [],
-      "cheap": [],
-      "free": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"],
-      "fallback": [],
+      "cheap": [
+        "openai/gpt-4o-mini",
+        "google/gemma-3n-e4b-it",
+        "google/gemma-3-4b-it",
+        "openrouter/bodybuilder",
+        "openrouter/fusion",
+        "openrouter/pareto-code",
+        "mistralai/mistral-nemo",
+        "sao10k/l3-lunaris-8b"
+      ],
+      "free": [
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "google/gemma-4-31b-it:free",
+        "google/gemma-4-26b-a4b-it:free",
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free",
+        "openai/gpt-oss-120b:free",
+        "openai/gpt-oss-20b:free",
+        "nvidia/nemotron-3-nano-30b-a3b:free"
+      ],
+      "fallback": [
+        "anthropic/claude-sonnet-4.5",
+        "openai/gpt-5.1",
+        "qwen/qwen3.5-397b-a17b",
+        "mistralai/mistral-medium-3-5",
+        "z-ai/glm-4.6",
+        "qwen/qwen3.5-122b-a10b",
+        "z-ai/glm-4.7",
+        "anthropic/claude-haiku-4.5"
+      ],
       "candidate": [],
-      "unknown": [],
+      "unknown": [
+        "cohere/command-a",
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "mistralai/mistral-medium-3.1",
+        "openai/gpt-4",
+        "openai/gpt-3.5-turbo",
+        "deepseek/deepseek-chat",
+        "qwen/qwen-plus"
+      ],
       "avoid": []
     },
     "production": {
-      "primary": ["anthropic/claude-fable-5", "anthropic/claude-sonnet-5", "z-ai/glm-5.2", "moonshotai/kimi-k2.7-code", "qwen/qwen3.7-plus", "nex-agi/nex-n2-mini"],
+      "primary": [
+        "anthropic/claude-fable-5",
+        "openai/gpt-5.5",
+        "anthropic/claude-opus-4.8",
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-sonnet-5",
+        "openai/gpt-5.4",
+        "google/gemini-3.5-flash",
+        "z-ai/glm-5.2"
+      ],
       "high_reasoning": [],
-      "cheap": [],
+      "cheap": [
+        "openai/gpt-4o-mini",
+        "google/gemma-3n-e4b-it",
+        "google/gemma-3-4b-it",
+        "openrouter/bodybuilder",
+        "openrouter/fusion",
+        "openrouter/pareto-code",
+        "mistralai/mistral-nemo",
+        "sao10k/l3-lunaris-8b"
+      ],
       "free": [],
-      "fallback": [],
+      "fallback": [
+        "anthropic/claude-sonnet-4.5",
+        "openai/gpt-5.1",
+        "qwen/qwen3.5-397b-a17b",
+        "mistralai/mistral-medium-3-5",
+        "z-ai/glm-4.6",
+        "qwen/qwen3.5-122b-a10b",
+        "z-ai/glm-4.7",
+        "anthropic/claude-haiku-4.5"
+      ],
       "candidate": [],
-      "unknown": [],
-      "avoid": ["nvidia/nemotron-3-ultra-550b-a55b:free", "cohere/north-mini-code:free", "poolside/laguna-xs-2.1:free", "tencent/hy3:free"]
+      "unknown": [
+        "cohere/command-a",
+        "openai/gpt-4o-2024-05-13",
+        "openai/gpt-4-turbo",
+        "mistralai/mistral-medium-3.1",
+        "openai/gpt-4",
+        "openai/gpt-3.5-turbo",
+        "deepseek/deepseek-chat",
+        "qwen/qwen-plus"
+      ],
+      "avoid": [
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "google/gemma-4-31b-it:free",
+        "google/gemma-4-26b-a4b-it:free",
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free",
+        "openai/gpt-oss-120b:free",
+        "openai/gpt-oss-20b:free",
+        "nvidia/nemotron-3-nano-30b-a3b:free"
+      ]
     }
   }
 }

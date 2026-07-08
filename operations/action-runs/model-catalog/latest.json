@@ -1,0 +1,17 @@
+{
+  "github_run_id": "28946888032",
+  "github_sha": "432dd9e2df836344c42e7dfaabd51e00deabaa54",
+  "matrix_exists": true,
+  "matrix_path": "data/openrouter/generated/model-routing-matrix.csv",
+  "matrix_row_count": 343,
+  "next_chatgpt_action": "Model Analyst if raw snapshot and validation succeeded; Tool Builder if snapshot or validation failed.",
+  "producer_error": null,
+  "raw_model_count": 343,
+  "raw_models_exists": true,
+  "raw_models_path": "data/openrouter/raw/2026-07-08/models.json",
+  "recorded_at_utc": "2026-07-08T13:36:36Z",
+  "router_config_exists": true,
+  "snapshot_outcome": "success",
+  "validate_outcome": "success",
+  "workflow": "model-catalog"
+}
