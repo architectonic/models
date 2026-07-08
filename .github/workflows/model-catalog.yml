@@ -1,33 +1,118 @@
 name: model-catalog
 
 on:
-  workflow_dispatch: {}
   schedule:
     - cron: "17 9 * * 1"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/model-catalog.yml"
+      - "scripts/openrouter_model_catalog.py"
+      - "data/openrouter/README.md"
+      - "operations/action-runs/model-catalog/README.md"
+      - "operations/daily/**"
+      - "operations/log.md"
+      - "reports/**"
 
 permissions:
   contents: write
+
+concurrency:
+  group: model-catalog
+  cancel-in-progress: false
 
 jobs:
   snapshot:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Build live OpenRouter model snapshot
+        id: snapshot
+        continue-on-error: true
+        run: python scripts/openrouter_model_catalog.py snapshot --sort top-weekly
+
+      - name: Validate generated model catalog
+        id: validate
+        continue-on-error: true
+        run: python scripts/openrouter_model_catalog.py validate
+
+      - name: Write action handoff
+        if: always()
+        env:
+          SNAPSHOT_OUTCOME: ${{ steps.snapshot.outcome }}
+          VALIDATE_OUTCOME: ${{ steps.validate.outcome }}
         run: |
-          python scripts/openrouter_model_catalog.py snapshot --sort top-weekly
-          python scripts/openrouter_model_catalog.py validate
-      - name: Commit generated catalog when changed
+          mkdir -p operations/action-runs/model-catalog
+          python - <<'PY'
+          import csv
+          import datetime as dt
+          import json
+          import os
+          from pathlib import Path
+
+          today = dt.date.today().isoformat()
+          raw_path = Path("data/openrouter/raw") / today / "models.json"
+          matrix_path = Path("data/openrouter/generated/model-routing-matrix.csv")
+          router_path = Path("data/openrouter/generated/model-router.generated.json")
+          model_count = None
+          row_count = None
+          raw_error = None
+          if raw_path.exists():
+              try:
+                  payload = json.loads(raw_path.read_text(encoding="utf-8"))
+                  model_count = len(payload.get("data", [])) if isinstance(payload.get("data"), list) else None
+              except Exception as exc:
+                  raw_error = f"invalid_raw_json:{type(exc).__name__}"
+          if matrix_path.exists():
+              try:
+                  with matrix_path.open(encoding="utf-8") as handle:
+                      row_count = sum(1 for _ in csv.DictReader(handle))
+              except Exception as exc:
+                  raw_error = (raw_error or "") + f" invalid_matrix:{type(exc).__name__}"
+          handoff = {
+              "workflow": "model-catalog",
+              "recorded_at_utc": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+              "github_run_id": os.environ.get("GITHUB_RUN_ID"),
+              "github_sha": os.environ.get("GITHUB_SHA"),
+              "snapshot_outcome": os.environ.get("SNAPSHOT_OUTCOME"),
+              "validate_outcome": os.environ.get("VALIDATE_OUTCOME"),
+              "raw_models_path": str(raw_path),
+              "raw_models_exists": raw_path.exists(),
+              "raw_model_count": model_count,
+              "matrix_path": str(matrix_path),
+              "matrix_exists": matrix_path.exists(),
+              "matrix_row_count": row_count,
+              "router_config_exists": router_path.exists(),
+              "producer_error": raw_error,
+              "next_chatgpt_action": "Model Analyst if raw snapshot and validation succeeded; Tool Builder if snapshot or validation failed."
+          }
+          Path("operations/action-runs/model-catalog/latest.json").write_text(json.dumps(handoff, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+          PY
+
+      - name: Commit model catalog artifacts and handoff
+        if: always()
         run: |
-          git config user.name "architectonic-models-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/openrouter/raw data/openrouter/generated || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/openrouter/raw data/openrouter/generated operations/action-runs/model-catalog
           if git diff --cached --quiet; then
-            echo "No model catalog changes."
+            echo "No model catalog artifacts or handoff changes to commit."
             exit 0
           fi
-          git commit -m "Refresh OpenRouter model catalog"
+          git commit -m "data: record OpenRouter model catalog handoff"
+          git pull --rebase
           git push
+
+      - name: Fail on snapshot or validation failure
+        if: steps.snapshot.outcome != 'success' || steps.validate.outcome != 'success'
+        run: exit 1
