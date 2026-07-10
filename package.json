@@ -1,0 +1,30 @@
+{
+  "name": "architectonic-models",
+  "version": "0.1.0",
+  "description": "Architectonic package for evidence-backed model metadata, evaluations, capability requirements, and routing policy.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/architectonic/models.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "README.md",
+    "data",
+    "docs",
+    "operations",
+    "scripts"
+  ],
+  "keywords": [
+    "architectonic",
+    "models",
+    "routing",
+    "evaluation",
+    "openrouter",
+    "human-ai",
+    "okf"
+  ]
+}
