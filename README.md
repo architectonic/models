@@ -1,25 +1,27 @@
 # Architectonic Models
 
-A repo-native model intelligence ledger for OpenRouter and adjacent model-provider routing.
+`models` is a repository for maintaining evidence-backed model metadata and routing policy.
 
-The purpose is to turn a fast-changing model market into a maintained, machine-readable routing matrix that answers:
+Its purpose is to help a concrete system decide:
 
-- which models are cheap enough for local development;
-- which models are suitable as primary/fallback coding workers;
-- which models deserve expensive high-reasoning review lanes;
-- which models should be avoided for production or sensitive work;
-- when pricing, context, popularity, or capability changes require routing changes.
+- which models meet a task's capability requirements;
+- which models are suitable as primary or fallback workers;
+- where additional review is justified;
+- which models should be excluded from sensitive or production work;
+- when changes in pricing, availability, context limits, or measured behavior require routing changes.
+
+Model rankings are conditional on task, evidence, cost, latency, provider, date, and evaluation method. This repository should not present a temporary leaderboard as a general statement of model quality.
 
 ## Current state
 
-This repo is initialized with a bootstrap OpenRouter pipeline and seed matrix. The seed is intentionally conservative: it is a representative starter set, not a canonical top-50 list. The live catalog is produced by running the snapshot command against OpenRouter.
+The repository includes a bootstrap OpenRouter pipeline and a seed matrix. The seed is a representative starting set, not a canonical ranking. A current catalog is produced by running the snapshot command against OpenRouter.
 
 ```bash
 python scripts/openrouter_model_catalog.py seed
 python scripts/openrouter_model_catalog.py validate
 ```
 
-For live weekly/discretionary refreshes:
+For live refreshes:
 
 ```bash
 export OPENROUTER_API_KEY=...
@@ -35,32 +37,50 @@ data/openrouter/generated/model-routing-matrix.csv
   CSV table for spreadsheet review and routing decisions.
 
 data/openrouter/generated/model-routing-matrix.json
-  Same rows in JSON for agent/runtime consumption.
+  Equivalent rows in JSON for software consumption.
 
 data/openrouter/generated/model-router.generated.json
-  Small route map grouped by use case and role.
+  Compact route map grouped by use case and role.
 ```
+
+Generated files are derived views. The inputs, evaluation definitions, dates, and routing rules needed to reproduce them should remain recoverable.
+
+## Evaluation principles
+
+- Separate provider metadata from measured behavior.
+- Record model version, provider, date, parameters, task set, and evaluator.
+- Treat popularity and marketing claims as signals, not capability evidence.
+- Prefer task-specific evaluations over one aggregate score.
+- Record variance, failures, and known limitations rather than only successful examples.
+- Re-evaluate when providers silently change aliases, quantization, context policy, or pricing.
+- Keep routing policy replaceable and independent from agent identity.
+- Require stronger evidence and review for higher-risk actions.
 
 ## Operating model
 
-This repo follows the same board-first heartbeat pattern used by the active Architectonic operator repos:
+Maintenance may use a board, ledger, or another explicit queue. The durable requirements are simpler:
 
-1. Fetch exact default-branch state.
-2. Read `operations/board.json`, `operations/gates.md`, `operations/value-ledger.json`, today's daily state, and relevant ticket inputs.
-3. Consume exactly one highest-priority ready ticket allowed by gates.
-4. Produce an artifact or block/kill the ticket with evidence.
-5. Run acceptance tests.
-6. Update board, ledger, daily state, and log.
+1. fetch current source state and provider data;
+2. select one bounded update or evaluation;
+3. preserve evidence and assumptions;
+4. validate generated outputs;
+5. record the resulting change and unresolved uncertainty.
 
-The first value path is:
+Operational artifacts should not multiply unless they change future work, preserve evidence, or define a necessary review boundary.
+
+## Relationship to the stack
 
 ```text
-models-bootstrap-openrouter-catalog-001
--> models-live-openrouter-snapshot-001
--> models-routing-matrix-rank-top50-001
--> models-eval-harness-seed-001
+doctrine   = governs acceptable use and risk
+identity   = defines who may select, approve, or override routing
+project    = supplies task and operating context
+skills     = supplies evaluation and routing procedures
+knowledge  = retains reviewed model claims and evidence
+meta       = defines refresh, drift, and revision policy
+agents     = consumes capability requirements and routing policy
+models     = maintains model metadata, evaluations, and route candidates
 ```
 
 ## Boundary
 
-This repo classifies and routes models. It does not execute production deployments, contact providers, change billing, transmit secrets, or claim model quality without metadata/eval evidence.
+This repository classifies and routes models. It does not execute production deployments, contact providers, change billing, transmit secrets, or claim model quality without metadata or evaluation evidence.
