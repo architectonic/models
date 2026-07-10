@@ -1,0 +1,61 @@
+name: Publish npm
+
+on:
+  push:
+    tags:
+      - 'v[0-9]*.[0-9]*.[0-9]*'
+  workflow_dispatch:
+
+concurrency:
+  group: npm-publish-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate model catalog
+        run: |
+          python scripts/openrouter_model_catalog.py seed
+          python scripts/openrouter_model_catalog.py validate
+
+      - name: Tag matches package version
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          TAG="${GITHUB_REF#refs/tags/v}"
+          VER="$(node -p "require('./package.json').version")"
+          test "$VER" = "$TAG" || { echo "version mismatch: package.json is $VER but tag is v$TAG"; exit 1; }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install current npm CLI
+        run: npm install -g npm@latest
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Publish
+        run: npm publish --access public
+
+      - name: Verify registry
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          TAG="${GITHUB_REF#refs/tags/v}"
+          PKG="$(node -p "require('./package.json').name")"
+          for i in $(seq 1 12); do
+            VERSION="$(npm view "$PKG" version 2>/dev/null || true)"
+            test "$VERSION" = "$TAG" && { echo "OK: $PKG@$VERSION"; exit 0; }
+            sleep 5
+          done
+          echo "npm view $PKG did not show $TAG (last: $VERSION)"
+          exit 1
