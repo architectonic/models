@@ -1,17 +1,17 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-07-08T13:36:50.096549+00:00",
+  "generated_at": "2026-07-13T12:17:12.913809+00:00",
   "buckets": {
     "coding": {
       "primary": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "anthropic/claude-opus-4.7",
+        "x-ai/grok-4.5",
         "anthropic/claude-sonnet-5",
         "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2",
-        "google/gemini-3.1-pro-preview",
-        "qwen/qwen3.7-max"
+        "google/gemini-3.5-flash"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -28,12 +28,12 @@
       "fallback": [
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
+        "openai/gpt-5.6-luna",
         "openai/gpt-5.4-nano",
         "qwen/qwen3.7-plus",
         "qwen/qwen3.6-plus",
         "qwen/qwen3.6-27b",
-        "minimax/minimax-m2.7",
-        "anthropic/claude-sonnet-4.5"
+        "minimax/minimax-m2.7"
       ],
       "candidate": [],
       "unknown": [
@@ -42,33 +42,33 @@
         "openai/o3-mini-high",
         "openai/gpt-4",
         "qwen/qwen3-vl-235b-a22b-instruct",
+        "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "undi95/remm-slerp-l2-13b",
-        "microsoft/wizardlm-2-8x22b",
-        "arcee-ai/coder-large"
+        "microsoft/wizardlm-2-8x22b"
       ],
       "avoid": []
     },
     "documentation": {
       "primary": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
         "anthropic/claude-opus-4.7",
-        "anthropic/claude-sonnet-5",
-        "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2"
+        "x-ai/grok-4.5",
+        "anthropic/claude-sonnet-5"
       ],
       "high_reasoning": [],
       "cheap": [
         "xiaomi/mimo-v2.5-pro",
         "deepseek/deepseek-v4-pro",
         "minimax/minimax-m3",
+        "xiaomi/mimo-v2.5",
         "deepseek/deepseek-v4-flash",
         "openai/gpt-5.4-nano",
         "qwen/qwen3.7-plus",
-        "qwen/qwen3.6-plus",
-        "qwen/qwen3.6-27b"
+        "qwen/qwen3.6-plus"
       ],
       "free": [],
       "fallback": [
@@ -89,21 +89,21 @@
         "openai/gpt-4",
         "sao10k/l3.1-euryale-70b",
         "mancer/weaver",
-        "qwen/qwen2.5-vl-72b-instruct",
-        "arcee-ai/virtuoso-large"
+        "arcee-ai/virtuoso-large",
+        "morph/morph-v3-fast"
       ],
       "avoid": []
     },
     "testing": {
       "primary": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "anthropic/claude-opus-4.7",
+        "x-ai/grok-4.5",
         "anthropic/claude-sonnet-5",
-        "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2",
-        "google/gemini-3.1-pro-preview",
-        "qwen/qwen3.7-max"
+        "openai/gpt-5.6-luna",
+        "openai/gpt-5.4"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -142,14 +142,14 @@
     },
     "frontend": {
       "primary": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "anthropic/claude-opus-4.7",
+        "x-ai/grok-4.5",
         "anthropic/claude-sonnet-5",
         "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2",
-        "google/gemini-3.1-pro-preview",
-        "qwen/qwen3.7-max"
+        "google/gemini-3.5-flash"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -166,12 +166,12 @@
       "fallback": [
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
+        "openai/gpt-5.6-luna",
         "openai/gpt-5.4-nano",
         "qwen/qwen3.7-plus",
         "qwen/qwen3.6-plus",
         "qwen/qwen3.6-27b",
-        "minimax/minimax-m2.7",
-        "anthropic/claude-sonnet-4.5"
+        "minimax/minimax-m2.7"
       ],
       "candidate": [],
       "unknown": [
@@ -180,22 +180,22 @@
         "openai/o3-mini-high",
         "openai/gpt-4",
         "qwen/qwen3-vl-235b-a22b-instruct",
+        "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "undi95/remm-slerp-l2-13b",
-        "microsoft/wizardlm-2-8x22b",
-        "arcee-ai/coder-large"
+        "microsoft/wizardlm-2-8x22b"
       ],
       "avoid": []
     },
     "backend": {
       "primary": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "anthropic/claude-opus-4.7",
+        "x-ai/grok-4.5",
         "anthropic/claude-sonnet-5",
         "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2",
-        "google/gemini-3.1-pro-preview",
-        "qwen/qwen3.7-max"
+        "google/gemini-3.5-flash"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -212,12 +212,12 @@
       "fallback": [
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
+        "openai/gpt-5.6-luna",
         "openai/gpt-5.4-nano",
         "qwen/qwen3.7-plus",
         "qwen/qwen3.6-plus",
         "qwen/qwen3.6-27b",
-        "minimax/minimax-m2.7",
-        "anthropic/claude-sonnet-4.5"
+        "minimax/minimax-m2.7"
       ],
       "candidate": [],
       "unknown": [
@@ -226,23 +226,23 @@
         "openai/o3-mini-high",
         "openai/gpt-4",
         "qwen/qwen3-vl-235b-a22b-instruct",
+        "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "undi95/remm-slerp-l2-13b",
-        "microsoft/wizardlm-2-8x22b",
-        "arcee-ai/coder-large"
+        "microsoft/wizardlm-2-8x22b"
       ],
       "avoid": []
     },
     "architecture": {
       "primary": [],
       "high_reasoning": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
         "anthropic/claude-opus-4.7",
-        "anthropic/claude-sonnet-5",
-        "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2"
+        "x-ai/grok-4.5",
+        "anthropic/claude-sonnet-5"
       ],
       "cheap": [
         "openai/gpt-4o-mini",
@@ -273,8 +273,8 @@
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
         "openai/gpt-3.5-turbo",
-        "deepseek/deepseek-chat",
-        "qwen/qwen-plus"
+        "qwen/qwen2.5-vl-72b-instruct",
+        "deepseek/deepseek-chat"
       ],
       "avoid": [
         "meta-llama/llama-3.3-70b-instruct:free",
@@ -289,14 +289,14 @@
     },
     "planning": {
       "primary": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
         "anthropic/claude-opus-4.7",
-        "anthropic/claude-sonnet-5",
-        "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2"
+        "x-ai/grok-4.5",
+        "anthropic/claude-sonnet-5"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -345,14 +345,14 @@
     "reasoning": {
       "primary": [],
       "high_reasoning": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
         "anthropic/claude-opus-4.7",
-        "anthropic/claude-sonnet-5",
-        "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2"
+        "x-ai/grok-4.5",
+        "anthropic/claude-sonnet-5"
       ],
       "cheap": [
         "openai/gpt-4o-mini",
@@ -383,8 +383,8 @@
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
         "openai/gpt-3.5-turbo",
-        "deepseek/deepseek-chat",
-        "qwen/qwen-plus"
+        "qwen/qwen2.5-vl-72b-instruct",
+        "deepseek/deepseek-chat"
       ],
       "avoid": [
         "meta-llama/llama-3.3-70b-instruct:free",
@@ -399,14 +399,14 @@
     },
     "local_dev": {
       "primary": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
         "anthropic/claude-opus-4.7",
-        "anthropic/claude-sonnet-5",
-        "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2"
+        "x-ai/grok-4.5",
+        "anthropic/claude-sonnet-5"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -447,21 +447,21 @@
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
         "openai/gpt-3.5-turbo",
-        "deepseek/deepseek-chat",
-        "qwen/qwen-plus"
+        "qwen/qwen2.5-vl-72b-instruct",
+        "deepseek/deepseek-chat"
       ],
       "avoid": []
     },
     "production": {
       "primary": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
         "anthropic/claude-opus-4.7",
-        "anthropic/claude-sonnet-5",
-        "openai/gpt-5.4",
-        "google/gemini-3.5-flash",
-        "z-ai/glm-5.2"
+        "x-ai/grok-4.5",
+        "anthropic/claude-sonnet-5"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -493,8 +493,8 @@
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
         "openai/gpt-3.5-turbo",
-        "deepseek/deepseek-chat",
-        "qwen/qwen-plus"
+        "qwen/qwen2.5-vl-72b-instruct",
+        "deepseek/deepseek-chat"
       ],
       "avoid": [
         "nvidia/nemotron-3-ultra-550b-a55b:free",
