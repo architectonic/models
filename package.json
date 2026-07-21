@@ -1,6 +1,6 @@
 {
   "name": "architectonic-models",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Evidence-backed model metadata, evaluations, capability requirements, and routing policy.",
   "license": "Apache-2.0",
   "type": "module",
