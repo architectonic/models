@@ -1,5 +1,7 @@
 # Models and Retrieval Policy
 
+**Architectonic layer:** [main CLI and adaptive profiles](https://github.com/architectonic/architectonic)
+
 > **Status: experimental, pre-1.0.** Model and retrieval assessments are conditional on task, version, provider, date, parameters, evaluator, cost, latency, and evidence. Popularity and leaderboards are discovery signals, not universal capability proof.
 
 This layer records:
