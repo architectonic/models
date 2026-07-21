@@ -1,7 +1,7 @@
 {
   "name": "architectonic-models",
-  "version": "0.1.1",
-  "description": "Architectonic package for evidence-backed model metadata, evaluations, capability requirements, and routing policy.",
+  "version": "0.2.0",
+  "description": "Evidence-backed model metadata, evaluations, capability requirements, and routing policy.",
   "license": "Apache-2.0",
   "type": "module",
   "repository": {
@@ -13,18 +13,23 @@
   },
   "files": [
     "README.md",
+    "CHANGELOG.md",
+    "architectonic.protocol.json",
     "data",
     "docs",
     "operations",
     "scripts"
   ],
+  "scripts": {
+    "validate": "node scripts/validate-package.mjs",
+    "test": "npm run validate"
+  },
   "keywords": [
     "architectonic",
     "models",
-    "routing",
-    "evaluation",
-    "openrouter",
     "human-ai",
-    "okf"
+    "agents",
+    "provenance",
+    "governance"
   ]
 }

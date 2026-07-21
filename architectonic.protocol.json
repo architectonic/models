@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "protocol_version": "0.2.0",
+  "package_version": "0.2.0",
+  "package_name": "architectonic-models",
+  "layer": "models",
+  "canonical_entry": "README.md",
+  "status": "experimental",
+  "maturity": "pre-1.0",
+  "runtime_neutral": true,
+  "claim_policy": "Claims must be labeled as design objectives, demonstrated mechanisms, internal observations, public benchmarks, or external replications."
+}
