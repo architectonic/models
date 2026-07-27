@@ -1,17 +1,17 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-07-20T11:58:49.580806+00:00",
+  "generated_at": "2026-07-27T12:37:06.252092+00:00",
   "buckets": {
     "coding": {
       "primary": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "anthropic/claude-opus-4.7",
         "x-ai/grok-4.5",
-        "anthropic/claude-sonnet-5",
-        "meta/muse-spark-1.1"
+        "anthropic/claude-sonnet-5"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -22,7 +22,7 @@
         "cohere/north-mini-code:free",
         "openai/gpt-oss-20b:free",
         "nvidia/nemotron-3-nano-30b-a3b:free",
-        "google/gemma-3n-e4b-it"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
       "free": [],
       "fallback": [
@@ -41,23 +41,23 @@
         "openai/gpt-4-turbo",
         "openai/o3-mini-high",
         "openai/gpt-4",
+        "qwen/qwen3-30b-a3b-thinking-2507",
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "undi95/remm-slerp-l2-13b",
-        "microsoft/wizardlm-2-8x22b",
-        "mancer/weaver"
+        "microsoft/wizardlm-2-8x22b"
       ],
       "avoid": []
     },
     "documentation": {
       "primary": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
-        "anthropic/claude-opus-4.7",
-        "x-ai/grok-4.5"
+        "anthropic/claude-opus-4.7"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -96,14 +96,14 @@
     },
     "testing": {
       "primary": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "anthropic/claude-opus-4.7",
         "x-ai/grok-4.5",
-        "anthropic/claude-sonnet-5",
-        "openai/gpt-5.6-luna"
+        "anthropic/claude-sonnet-5"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -114,7 +114,7 @@
         "cohere/north-mini-code:free",
         "openai/gpt-oss-20b:free",
         "nvidia/nemotron-3-nano-30b-a3b:free",
-        "google/gemma-3n-e4b-it"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
       "free": [],
       "fallback": [
@@ -133,23 +133,23 @@
         "openai/gpt-4-turbo",
         "openai/o3-mini-high",
         "openai/gpt-4",
+        "qwen/qwen3-30b-a3b-thinking-2507",
         "undi95/remm-slerp-l2-13b",
         "microsoft/wizardlm-2-8x22b",
-        "mancer/weaver",
-        "google/gemma-2-27b-it"
+        "mancer/weaver"
       ],
       "avoid": []
     },
     "frontend": {
       "primary": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "anthropic/claude-opus-4.7",
         "x-ai/grok-4.5",
-        "anthropic/claude-sonnet-5",
-        "meta/muse-spark-1.1"
+        "anthropic/claude-sonnet-5"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -160,7 +160,7 @@
         "cohere/north-mini-code:free",
         "openai/gpt-oss-20b:free",
         "nvidia/nemotron-3-nano-30b-a3b:free",
-        "google/gemma-3n-e4b-it"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
       "free": [],
       "fallback": [
@@ -179,23 +179,23 @@
         "openai/gpt-4-turbo",
         "openai/o3-mini-high",
         "openai/gpt-4",
+        "qwen/qwen3-30b-a3b-thinking-2507",
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "undi95/remm-slerp-l2-13b",
-        "microsoft/wizardlm-2-8x22b",
-        "mancer/weaver"
+        "microsoft/wizardlm-2-8x22b"
       ],
       "avoid": []
     },
     "backend": {
       "primary": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "anthropic/claude-opus-4.7",
         "x-ai/grok-4.5",
-        "anthropic/claude-sonnet-5",
-        "meta/muse-spark-1.1"
+        "anthropic/claude-sonnet-5"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -206,7 +206,7 @@
         "cohere/north-mini-code:free",
         "openai/gpt-oss-20b:free",
         "nvidia/nemotron-3-nano-30b-a3b:free",
-        "google/gemma-3n-e4b-it"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
       "free": [],
       "fallback": [
@@ -225,24 +225,24 @@
         "openai/gpt-4-turbo",
         "openai/o3-mini-high",
         "openai/gpt-4",
+        "qwen/qwen3-30b-a3b-thinking-2507",
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "undi95/remm-slerp-l2-13b",
-        "microsoft/wizardlm-2-8x22b",
-        "mancer/weaver"
+        "microsoft/wizardlm-2-8x22b"
       ],
       "avoid": []
     },
     "architecture": {
       "primary": [],
       "high_reasoning": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
-        "anthropic/claude-opus-4.7",
-        "x-ai/grok-4.5"
+        "anthropic/claude-opus-4.7"
       ],
       "cheap": [
         "openai/gpt-4o-mini",
@@ -283,14 +283,14 @@
     },
     "planning": {
       "primary": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
-        "anthropic/claude-opus-4.7",
-        "x-ai/grok-4.5"
+        "anthropic/claude-opus-4.7"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -333,14 +333,14 @@
     "reasoning": {
       "primary": [],
       "high_reasoning": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
-        "anthropic/claude-opus-4.7",
-        "x-ai/grok-4.5"
+        "anthropic/claude-opus-4.7"
       ],
       "cheap": [
         "openai/gpt-4o-mini",
@@ -381,14 +381,14 @@
     },
     "local_dev": {
       "primary": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
-        "anthropic/claude-opus-4.7",
-        "x-ai/grok-4.5"
+        "anthropic/claude-opus-4.7"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -409,17 +409,17 @@
         "cohere/north-mini-code:free",
         "openai/gpt-oss-20b:free",
         "nvidia/nemotron-3-nano-30b-a3b:free",
-        "google/lyria-3-clip-preview"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
       "fallback": [
         "kwaipilot/kat-coder-pro-v2",
         "thinkingmachines/inkling",
         "anthropic/claude-sonnet-4.5",
         "openai/gpt-5.1",
-        "nvidia/nemotron-3-ultra-550b-a55b",
         "qwen/qwen3.5-397b-a17b",
         "mistralai/mistral-medium-3-5",
-        "moonshotai/kimi-k2.5"
+        "moonshotai/kimi-k2.5",
+        "z-ai/glm-4.6"
       ],
       "candidate": [],
       "unknown": [
@@ -436,14 +436,14 @@
     },
     "production": {
       "primary": [
+        "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol",
         "openai/gpt-5.6-terra",
         "anthropic/claude-fable-5",
         "moonshotai/kimi-k3",
         "openai/gpt-5.5",
         "anthropic/claude-opus-4.8",
-        "anthropic/claude-opus-4.7",
-        "x-ai/grok-4.5"
+        "anthropic/claude-opus-4.7"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -462,10 +462,10 @@
         "thinkingmachines/inkling",
         "anthropic/claude-sonnet-4.5",
         "openai/gpt-5.1",
-        "nvidia/nemotron-3-ultra-550b-a55b",
         "qwen/qwen3.5-397b-a17b",
         "mistralai/mistral-medium-3-5",
-        "moonshotai/kimi-k2.5"
+        "moonshotai/kimi-k2.5",
+        "z-ai/glm-4.6"
       ],
       "candidate": [],
       "unknown": [
@@ -486,7 +486,7 @@
         "cohere/north-mini-code:free",
         "openai/gpt-oss-20b:free",
         "nvidia/nemotron-3-nano-30b-a3b:free",
-        "google/lyria-3-clip-preview"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ]
     }
   }
