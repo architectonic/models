@@ -1,5 +1,7 @@
 # Models Value Gates
 
+Work authority: `operations/ledger.json` (board.json is legacy evidence).
+
 ## Purpose
 
 The Models loop converts provider metadata, pricing, usage signals, and local eval results into a useful routing matrix. It must not become a spreadsheet-shaped pile of guesses.

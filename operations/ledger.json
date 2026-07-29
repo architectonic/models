@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "project": "architectonic-models",
+  "updated": "2026-07-26",
+  "roadmap_ref": "operations/gates.md",
+  "extensions": {
+    "legacy_board": "operations/board.json"
+  },
+  "items": [
+    {
+      "id": "models-live-openrouter-snapshot-001",
+      "title": "Fetch live OpenRouter snapshot and rebuild generated outputs",
+      "summary": "Fetch a live OpenRouter snapshot, store raw provider metadata, and rebuild generated model outputs from live data.",
+      "status": "ready",
+      "priority": "P1",
+      "owner_role": "coder",
+      "acceptance": [
+        "stores raw models snapshot without hand edits",
+        "rebuilds generated matrix from raw snapshot",
+        "validates generated CSV"
+      ],
+      "depends_on": [],
+      "evidence": [
+        "operations/board.json#models-live-openrouter-snapshot-001"
+      ]
+    }
+  ]
+}
