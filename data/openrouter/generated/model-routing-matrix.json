@@ -1,6 +1,6 @@
 [
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-5",
     "name": "Claude Opus 5",
     "family": "claude",
@@ -41,7 +41,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.6-sol",
     "name": "OpenAI: GPT-5.6 Sol",
     "family": "gpt",
@@ -82,7 +82,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.6-terra",
     "name": "OpenAI: GPT-5.6 Terra",
     "family": "gpt",
@@ -94,12 +94,12 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 2.5,
-    "pricing_completion_per_mtok": 15.0,
-    "price_doc_per_mtok": 4.375,
-    "price_code_per_mtok": 8.125,
-    "price_review_per_mtok": 3.75,
-    "price_agent_per_mtok": 8.75,
+    "pricing_prompt_per_mtok": 1.0,
+    "pricing_completion_per_mtok": 6.0,
+    "price_doc_per_mtok": 1.75,
+    "price_code_per_mtok": 3.25,
+    "price_review_per_mtok": 1.5,
+    "price_agent_per_mtok": 3.5,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 55.0,
@@ -123,7 +123,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-fable-5",
     "name": "Anthropic: Claude Fable 5",
     "family": "claude",
@@ -164,7 +164,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",
     "family": "kimi",
@@ -205,7 +205,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.5",
     "name": "OpenAI: GPT-5.5",
     "family": "gpt",
@@ -246,7 +246,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-4.8",
     "name": "Anthropic: Claude Opus 4.8",
     "family": "claude",
@@ -287,7 +287,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-4.7",
     "name": "Anthropic: Claude Opus 4.7",
     "family": "claude",
@@ -328,7 +328,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "x-ai/grok-4.5",
     "name": "xAI: Grok 4.5",
     "family": "unknown",
@@ -369,7 +369,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-sonnet-5",
     "name": "Anthropic: Claude Sonnet 5",
     "family": "claude",
@@ -410,7 +410,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.6-luna",
     "name": "OpenAI: GPT-5.6 Luna",
     "family": "gpt",
@@ -422,25 +422,25 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 1.0,
-    "pricing_completion_per_mtok": 6.0,
-    "price_doc_per_mtok": 1.75,
-    "price_code_per_mtok": 3.25,
-    "price_review_per_mtok": 1.5,
-    "price_agent_per_mtok": 3.5,
+    "pricing_prompt_per_mtok": 0.1,
+    "pricing_completion_per_mtok": 0.6,
+    "price_doc_per_mtok": 0.175,
+    "price_code_per_mtok": 0.325,
+    "price_review_per_mtok": 0.15,
+    "price_agent_per_mtok": 0.35,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 51.2,
     "coding_index": 71.4,
     "agentic_index": 45.6,
-    "task_tags": "long_context|reasoning|structured_output|tools",
+    "task_tags": "cheap|long_context|reasoning|structured_output|tools",
     "strength_tags": "coding_benchmark_high|reasoning|structured_output|tool_use|very_long_context",
     "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "primary",
+    "coding_role": "primary",
+    "documentation_role": "cheap",
     "testing_role": "primary",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
+    "frontend_role": "primary",
+    "backend_role": "primary",
     "architecture_role": "high_reasoning",
     "planning_role": "primary",
     "reasoning_role": "high_reasoning",
@@ -451,7 +451,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meta/muse-spark-1.1",
     "name": "Meta: Muse Spark 1.1",
     "family": "unknown",
@@ -492,7 +492,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.4",
     "name": "OpenAI: GPT-5.4",
     "family": "gpt",
@@ -533,7 +533,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.5-flash",
     "name": "Google: Gemini 3.5 Flash",
     "family": "gemini",
@@ -574,7 +574,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.6-flash",
     "name": "Google: Gemini 3.6 Flash",
     "family": "gemini",
@@ -615,7 +615,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "family": "unknown",
+    "is_free": "false",
+    "context_length": 1048576,
+    "max_completion_tokens": 65536,
+    "input_modalities": "text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.09,
+    "pricing_completion_per_mtok": 0.18,
+    "price_doc_per_mtok": 0.1035,
+    "price_code_per_mtok": 0.1305,
+    "price_review_per_mtok": 0.099,
+    "price_agent_per_mtok": 0.135,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 49.9,
+    "coding_index": 69.1,
+    "agentic_index": 45.7,
+    "task_tags": "cheap|coding|long_context|reasoning|structured_output|tools",
+    "strength_tags": "coding_benchmark_high|reasoning|structured_output|tool_use|very_long_context",
+    "weakness_tags": "",
+    "coding_role": "primary",
+    "documentation_role": "cheap",
+    "testing_role": "primary",
+    "frontend_role": "primary",
+    "backend_role": "primary",
+    "architecture_role": "high_reasoning",
+    "planning_role": "primary",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "primary",
+    "production_role": "primary",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "family": "glm",
@@ -627,12 +668,12 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.7938,
-    "pricing_completion_per_mtok": 2.4948,
-    "price_doc_per_mtok": 1.04895,
-    "price_code_per_mtok": 1.55925,
-    "price_review_per_mtok": 0.9639,
-    "price_agent_per_mtok": 1.6443,
+    "pricing_prompt_per_mtok": 0.707,
+    "pricing_completion_per_mtok": 2.222,
+    "price_doc_per_mtok": 0.93425,
+    "price_code_per_mtok": 1.38875,
+    "price_review_per_mtok": 0.8585,
+    "price_agent_per_mtok": 1.4645,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 51.1,
@@ -656,7 +697,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.1-pro-preview",
     "name": "Google: Gemini 3.1 Pro Preview",
     "family": "gemini",
@@ -697,13 +738,13 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.7-max",
     "name": "Qwen: Qwen3.7 Max",
     "family": "qwen",
     "is_free": "false",
     "context_length": 1000000,
-    "max_completion_tokens": 65536,
+    "max_completion_tokens": 131072,
     "input_modalities": "text",
     "output_modalities": "text",
     "supports_tools": "true",
@@ -738,7 +779,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-sonnet-4.6",
     "name": "Anthropic: Claude Sonnet 4.6",
     "family": "claude",
@@ -779,7 +820,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "family": "kimi",
@@ -791,12 +832,12 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.646,
-    "pricing_completion_per_mtok": 2.72,
-    "price_doc_per_mtok": 0.9571,
-    "price_code_per_mtok": 1.5793,
-    "price_review_per_mtok": 0.8534,
-    "price_agent_per_mtok": 1.683,
+    "pricing_prompt_per_mtok": 0.6,
+    "pricing_completion_per_mtok": 3.41,
+    "price_doc_per_mtok": 1.0215,
+    "price_code_per_mtok": 1.8645,
+    "price_review_per_mtok": 0.881,
+    "price_agent_per_mtok": 2.005,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 44.2,
@@ -820,7 +861,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "family": "kimi",
@@ -861,7 +902,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "xiaomi/mimo-v2.5-pro",
     "name": "Xiaomi: MiMo-V2.5-Pro",
     "family": "unknown",
@@ -902,7 +943,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "kwaipilot/kat-coder-pro-v2",
     "name": "Kwaipilot: KAT-Coder-Pro V2",
     "family": "unknown",
@@ -943,7 +984,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro",
     "family": "unknown",
@@ -984,7 +1025,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nex-agi/nex-n2-pro",
     "name": "Nex AGI: Nex-N2-Pro",
     "family": "nex",
@@ -1025,7 +1066,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "tencent/hy3-preview",
     "name": "Tencent: Hy3 preview",
     "family": "tencent",
@@ -1066,7 +1107,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "minimax/minimax-m3",
     "name": "MiniMax: MiniMax M3",
     "family": "unknown",
@@ -1107,7 +1148,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "xiaomi/mimo-v2.5",
     "name": "Xiaomi: MiMo-V2.5",
     "family": "unknown",
@@ -1148,48 +1189,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "deepseek/deepseek-v4-flash",
-    "name": "DeepSeek: DeepSeek V4 Flash",
-    "family": "unknown",
-    "is_free": "false",
-    "context_length": 1048576,
-    "max_completion_tokens": 393216,
-    "input_modalities": "text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.14,
-    "pricing_completion_per_mtok": 0.28,
-    "price_doc_per_mtok": 0.161,
-    "price_code_per_mtok": 0.203,
-    "price_review_per_mtok": 0.154,
-    "price_agent_per_mtok": 0.21,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 40.3,
-    "coding_index": 56.2,
-    "agentic_index": 31.1,
-    "task_tags": "cheap|long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use|very_long_context",
-    "weakness_tags": "",
-    "coding_role": "primary",
-    "documentation_role": "cheap",
-    "testing_role": "primary",
-    "frontend_role": "primary",
-    "backend_role": "primary",
-    "architecture_role": "high_reasoning",
-    "planning_role": "primary",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "primary",
-    "production_role": "primary",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.4-nano",
     "name": "OpenAI: GPT-5.4 Nano",
     "family": "gpt",
@@ -1230,7 +1230,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.4-mini",
     "name": "OpenAI: GPT-5.4 Mini",
     "family": "gpt",
@@ -1271,13 +1271,13 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.7-plus",
     "name": "Qwen: Qwen3.7 Plus",
     "family": "qwen",
     "is_free": "false",
     "context_length": 1000000,
-    "max_completion_tokens": 65536,
+    "max_completion_tokens": 131072,
     "input_modalities": "text|image",
     "output_modalities": "text",
     "supports_tools": "true",
@@ -1312,7 +1312,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "family": "glm",
@@ -1353,7 +1353,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.6-plus",
     "name": "Qwen: Qwen3.6 Plus",
     "family": "qwen",
@@ -1394,7 +1394,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.6-27b",
     "name": "Qwen: Qwen3.6 27B",
     "family": "qwen",
@@ -1435,7 +1435,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "thinkingmachines/inkling-small",
+    "name": "Thinking Machines: Inkling Small",
+    "family": "unknown",
+    "is_free": "false",
+    "context_length": 524288,
+    "max_completion_tokens": 0,
+    "input_modalities": "text|image|audio",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "false",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.5,
+    "pricing_completion_per_mtok": 1.2,
+    "price_doc_per_mtok": 0.605,
+    "price_code_per_mtok": 0.815,
+    "price_review_per_mtok": 0.57,
+    "price_agent_per_mtok": 0.85,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 40.2,
+    "coding_index": 52.9,
+    "agentic_index": 30.8,
+    "task_tags": "cheap|long_context|reasoning|tools",
+    "strength_tags": "reasoning|tool_use",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "cheap",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "high_reasoning",
+    "planning_role": "primary",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "primary",
+    "production_role": "primary",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "minimax/minimax-m2.7",
     "name": "MiniMax: MiniMax M2.7",
     "family": "unknown",
@@ -1476,7 +1517,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "thinkingmachines/inkling",
     "name": "Thinking Machines: Inkling",
     "family": "unknown",
@@ -1486,7 +1527,7 @@
     "input_modalities": "text|image|audio",
     "output_modalities": "text",
     "supports_tools": "true",
-    "supports_structured_output": "false",
+    "supports_structured_output": "true",
     "supports_reasoning": "true",
     "pricing_prompt_per_mtok": 1.0,
     "pricing_completion_per_mtok": 4.05,
@@ -1499,14 +1540,14 @@
     "intelligence_index": 40.7,
     "coding_index": 52.1,
     "agentic_index": 32.3,
-    "task_tags": "coding|long_context|reasoning|tools",
-    "strength_tags": "reasoning|tool_use|very_long_context",
+    "task_tags": "coding|long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use|very_long_context",
     "weakness_tags": "",
-    "coding_role": "fallback",
+    "coding_role": "primary",
     "documentation_role": "primary",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
+    "testing_role": "primary",
+    "frontend_role": "primary",
+    "backend_role": "primary",
     "architecture_role": "high_reasoning",
     "planning_role": "primary",
     "reasoning_role": "high_reasoning",
@@ -1517,7 +1558,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-sonnet-4.5",
     "name": "Anthropic: Claude Sonnet 4.5",
     "family": "claude",
@@ -1558,7 +1599,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "x-ai/grok-build-0.1",
     "name": "xAI: Grok Build 0.1",
     "family": "unknown",
@@ -1599,7 +1640,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.1",
     "name": "OpenAI: GPT-5.1",
     "family": "gpt",
@@ -1640,7 +1681,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
     "name": "NVIDIA: Nemotron 3 Ultra (free)",
     "family": "nemotron",
@@ -1681,48 +1722,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
-    "name": "NVIDIA: Nemotron 3 Ultra",
-    "family": "nemotron",
-    "is_free": "false",
-    "context_length": 512288,
-    "max_completion_tokens": 16384,
-    "input_modalities": "text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.5,
-    "pricing_completion_per_mtok": 2.2,
-    "price_doc_per_mtok": 0.755,
-    "price_code_per_mtok": 1.265,
-    "price_review_per_mtok": 0.67,
-    "price_agent_per_mtok": 1.35,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 37.8,
-    "coding_index": 49.3,
-    "agentic_index": 27.4,
-    "task_tags": "long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "primary",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "high_reasoning",
-    "planning_role": "primary",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "primary",
-    "production_role": "primary",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.5-flash-lite",
     "name": "Google: Gemini 3.5 Flash Lite",
     "family": "gemini",
@@ -1763,7 +1763,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "name": "NVIDIA: Nemotron 3 Ultra",
+    "family": "nemotron",
+    "is_free": "false",
+    "context_length": 512288,
+    "max_completion_tokens": 0,
+    "input_modalities": "text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.6,
+    "pricing_completion_per_mtok": 3.6,
+    "price_doc_per_mtok": 1.05,
+    "price_code_per_mtok": 1.95,
+    "price_review_per_mtok": 0.9,
+    "price_agent_per_mtok": 2.1,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 37.8,
+    "coding_index": 49.3,
+    "agentic_index": 27.4,
+    "task_tags": "long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "primary",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "high_reasoning",
+    "planning_role": "fallback",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "fallback",
+    "production_role": "fallback",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.5-397b-a17b",
     "name": "Qwen: Qwen3.5 397B A17B",
     "family": "qwen",
@@ -1804,7 +1845,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-medium-3-5",
     "name": "Mistral: Mistral Medium 3.5",
     "family": "unknown",
@@ -1845,7 +1886,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "moonshotai/kimi-k2.5",
     "name": "MoonshotAI: Kimi K2.5",
     "family": "kimi",
@@ -1886,7 +1927,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-4.6",
     "name": "Z.ai: GLM 4.6",
     "family": "glm",
@@ -1927,7 +1968,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.5-122b-a10b",
     "name": "Qwen: Qwen3.5-122B-A10B",
     "family": "qwen",
@@ -1939,12 +1980,12 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.26,
-    "pricing_completion_per_mtok": 2.08,
-    "price_doc_per_mtok": 0.533,
-    "price_code_per_mtok": 1.079,
-    "price_review_per_mtok": 0.442,
-    "price_agent_per_mtok": 1.17,
+    "pricing_prompt_per_mtok": 0.4,
+    "pricing_completion_per_mtok": 3.2,
+    "price_doc_per_mtok": 0.82,
+    "price_code_per_mtok": 1.66,
+    "price_review_per_mtok": 0.68,
+    "price_agent_per_mtok": 1.8,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 32.3,
@@ -1954,12 +1995,12 @@
     "strength_tags": "reasoning|structured_output|tool_use",
     "weakness_tags": "",
     "coding_role": "fallback",
-    "documentation_role": "cheap",
+    "documentation_role": "primary",
     "testing_role": "fallback",
     "frontend_role": "fallback",
     "backend_role": "fallback",
     "architecture_role": "high_reasoning",
-    "planning_role": "primary",
+    "planning_role": "fallback",
     "reasoning_role": "high_reasoning",
     "local_dev_role": "fallback",
     "production_role": "fallback",
@@ -1968,7 +2009,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-4.7",
     "name": "Z.ai: GLM 4.7",
     "family": "glm",
@@ -2009,7 +2050,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "deepseek/deepseek-v3.2",
     "name": "DeepSeek: DeepSeek V3.2",
     "family": "unknown",
@@ -2050,7 +2091,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-haiku-4.5",
     "name": "Anthropic: Claude Haiku 4.5",
     "family": "claude",
@@ -2091,7 +2132,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "deepseek/deepseek-v3.1-terminus",
     "name": "DeepSeek: DeepSeek V3.1 Terminus",
     "family": "unknown",
@@ -2132,7 +2173,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemma-4-31b-it:free",
     "name": "Google: Gemma 4 31B (free)",
     "family": "gemini",
@@ -2173,7 +2214,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemma-4-31b-it",
     "name": "Google: Gemma 4 31B",
     "family": "gemini",
@@ -2185,12 +2226,12 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.14,
-    "pricing_completion_per_mtok": 0.4,
-    "price_doc_per_mtok": 0.179,
-    "price_code_per_mtok": 0.257,
-    "price_review_per_mtok": 0.166,
-    "price_agent_per_mtok": 0.27,
+    "pricing_prompt_per_mtok": 0.1,
+    "pricing_completion_per_mtok": 0.34,
+    "price_doc_per_mtok": 0.136,
+    "price_code_per_mtok": 0.208,
+    "price_review_per_mtok": 0.124,
+    "price_agent_per_mtok": 0.22,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 29.4,
@@ -2214,7 +2255,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "inclusionai/ring-2.6-1t",
     "name": "inclusionAI: Ring-2.6-1T",
     "family": "unknown",
@@ -2255,7 +2296,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "x-ai/grok-4.3",
     "name": "xAI: Grok 4.3",
     "family": "unknown",
@@ -2296,7 +2337,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.6-35b-a3b",
     "name": "Qwen: Qwen3.6 35B A3B",
     "family": "qwen",
@@ -2337,7 +2378,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/o1",
     "name": "OpenAI: o1",
     "family": "gpt",
@@ -2378,7 +2419,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "stepfun/step-3.7-flash",
     "name": "StepFun: Step 3.7 Flash",
     "family": "unknown",
@@ -2419,7 +2460,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemma-4-26b-a4b-it:free",
     "name": "Google: Gemma 4 26B A4B  (free)",
     "family": "gemini",
@@ -2460,24 +2501,24 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",
     "family": "gemini",
     "is_free": "false",
     "context_length": 262144,
-    "max_completion_tokens": 262144,
+    "max_completion_tokens": 16384,
     "input_modalities": "image|text|video",
     "output_modalities": "text",
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.12,
-    "pricing_completion_per_mtok": 0.35,
-    "price_doc_per_mtok": 0.1545,
-    "price_code_per_mtok": 0.2235,
-    "price_review_per_mtok": 0.143,
-    "price_agent_per_mtok": 0.235,
+    "pricing_prompt_per_mtok": 0.07,
+    "pricing_completion_per_mtok": 0.34,
+    "price_doc_per_mtok": 0.1105,
+    "price_code_per_mtok": 0.1915,
+    "price_review_per_mtok": 0.097,
+    "price_agent_per_mtok": 0.205,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 25.7,
@@ -2501,7 +2542,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5",
     "name": "OpenAI: GPT-5",
     "family": "gpt",
@@ -2542,7 +2583,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
     "name": "NVIDIA: Nemotron 3 Super (free)",
     "family": "nemotron",
@@ -2583,7 +2624,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nvidia/nemotron-3-super-120b-a12b",
     "name": "NVIDIA: Nemotron 3 Super",
     "family": "nemotron",
@@ -2624,7 +2665,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-sonnet-4",
     "name": "Anthropic: Claude Sonnet 4",
     "family": "claude",
@@ -2665,7 +2706,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.5-35b-a3b",
     "name": "Qwen: Qwen3.5-35B-A3B",
     "family": "qwen",
@@ -2706,7 +2747,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "cohere/north-mini-code:free",
     "name": "Cohere: North Mini Code (free)",
     "family": "cohere",
@@ -2747,7 +2788,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-coder-next",
     "name": "Qwen: Qwen3 Coder Next",
     "family": "qwen",
@@ -2759,12 +2800,12 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 0.11,
+    "pricing_prompt_per_mtok": 0.12,
     "pricing_completion_per_mtok": 0.8,
-    "price_doc_per_mtok": 0.2135,
-    "price_code_per_mtok": 0.4205,
-    "price_review_per_mtok": 0.179,
-    "price_agent_per_mtok": 0.455,
+    "price_doc_per_mtok": 0.222,
+    "price_code_per_mtok": 0.426,
+    "price_review_per_mtok": 0.188,
+    "price_agent_per_mtok": 0.46,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 21.1,
@@ -2788,7 +2829,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.1-flash-lite-preview",
     "name": "Google: Gemini 3.1 Flash Lite Preview",
     "family": "gemini",
@@ -2829,7 +2870,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-2.5-pro",
     "name": "Google: Gemini 2.5 Pro",
     "family": "gemini",
@@ -2870,48 +2911,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "mistralai/devstral-2512",
-    "name": "Mistral: Devstral 2 2512",
-    "family": "unknown",
-    "is_free": "false",
-    "context_length": 262144,
-    "max_completion_tokens": 0,
-    "input_modalities": "text|file",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 0.4,
-    "pricing_completion_per_mtok": 2.0,
-    "price_doc_per_mtok": 0.64,
-    "price_code_per_mtok": 1.12,
-    "price_review_per_mtok": 0.56,
-    "price_agent_per_mtok": 1.2,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 19.2,
-    "coding_index": 31.3,
-    "agentic_index": 10.6,
-    "task_tags": "cheap|coding|long_context|reasoning|structured_output|tools",
-    "strength_tags": "structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "cheap",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "fallback",
-    "planning_role": "fallback",
-    "reasoning_role": "fallback",
-    "local_dev_role": "fallback",
-    "production_role": "fallback",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "inception/mercury-2",
     "name": "Inception: Mercury 2",
     "family": "unknown",
@@ -2952,7 +2952,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-oss-120b",
     "name": "OpenAI: gpt-oss-120b",
     "family": "gpt",
@@ -2993,7 +2993,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.5-9b",
     "name": "Qwen: Qwen3.5-9B",
     "family": "qwen",
@@ -3034,7 +3034,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "cohere/command-a",
     "name": "Cohere: Command A",
     "family": "cohere",
@@ -3075,7 +3075,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-small-2603",
     "name": "Mistral: Mistral Small 4",
     "family": "unknown",
@@ -3116,7 +3116,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "arcee-ai/trinity-large-thinking",
     "name": "Arcee AI: Trinity Large Thinking",
     "family": "unknown",
@@ -3157,7 +3157,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "inclusionai/ling-2.6-flash",
     "name": "inclusionAI: Ling-2.6-flash",
     "family": "unknown",
@@ -3198,7 +3198,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "deepseek/deepseek-r1",
     "name": "DeepSeek: R1",
     "family": "unknown",
@@ -3239,7 +3239,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4o-2024-05-13",
     "name": "OpenAI: GPT-4o (2024-05-13)",
     "family": "gpt",
@@ -3280,7 +3280,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "amazon/nova-2-lite-v1",
     "name": "Amazon: Nova 2 Lite",
     "family": "unknown",
@@ -3321,24 +3321,24 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
     "name": "Qwen: Qwen3 235B A22B Thinking 2507",
     "family": "qwen",
     "is_free": "false",
     "context_length": 262144,
-    "max_completion_tokens": 32768,
+    "max_completion_tokens": 0,
     "input_modalities": "text",
     "output_modalities": "text",
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.3,
-    "pricing_completion_per_mtok": 3.0,
-    "price_doc_per_mtok": 0.705,
-    "price_code_per_mtok": 1.515,
-    "price_review_per_mtok": 0.57,
-    "price_agent_per_mtok": 1.65,
+    "pricing_prompt_per_mtok": 0.23,
+    "pricing_completion_per_mtok": 2.3,
+    "price_doc_per_mtok": 0.5405,
+    "price_code_per_mtok": 1.1615,
+    "price_review_per_mtok": 0.437,
+    "price_agent_per_mtok": 1.265,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 19.6,
@@ -3362,7 +3362,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4-turbo",
     "name": "OpenAI: GPT-4 Turbo",
     "family": "gpt",
@@ -3403,7 +3403,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "deepseek/deepseek-chat-v3-0324",
     "name": "DeepSeek: DeepSeek V3 0324",
     "family": "unknown",
@@ -3444,7 +3444,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "moonshotai/kimi-k2-thinking",
     "name": "MoonshotAI: Kimi K2 Thinking",
     "family": "kimi",
@@ -3485,7 +3485,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-oss-20b:free",
     "name": "OpenAI: gpt-oss-20b (free)",
     "family": "gpt",
@@ -3526,7 +3526,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-oss-20b",
     "name": "OpenAI: gpt-oss-20b",
     "family": "gpt",
@@ -3539,11 +3539,11 @@
     "supports_structured_output": "true",
     "supports_reasoning": "true",
     "pricing_prompt_per_mtok": 0.03,
-    "pricing_completion_per_mtok": 0.14,
-    "price_doc_per_mtok": 0.0465,
-    "price_code_per_mtok": 0.0795,
-    "price_review_per_mtok": 0.041,
-    "price_agent_per_mtok": 0.085,
+    "pricing_completion_per_mtok": 0.13,
+    "price_doc_per_mtok": 0.045,
+    "price_code_per_mtok": 0.075,
+    "price_review_per_mtok": 0.04,
+    "price_agent_per_mtok": 0.08,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 14.9,
@@ -3567,7 +3567,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-medium-3.1",
     "name": "Mistral: Mistral Medium 3.1",
     "family": "unknown",
@@ -3608,7 +3608,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4.1-mini",
     "name": "OpenAI: GPT-4.1 Mini",
     "family": "gpt",
@@ -3649,7 +3649,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-large-2512",
     "name": "Mistral: Mistral Large 3 2512",
     "family": "unknown",
@@ -3690,7 +3690,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-next-80b-a3b-thinking",
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "family": "qwen",
@@ -3702,12 +3702,12 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.0975,
-    "pricing_completion_per_mtok": 0.78,
-    "price_doc_per_mtok": 0.199875,
-    "price_code_per_mtok": 0.404625,
-    "price_review_per_mtok": 0.16575,
-    "price_agent_per_mtok": 0.43875,
+    "pricing_prompt_per_mtok": 0.15,
+    "pricing_completion_per_mtok": 1.2,
+    "price_doc_per_mtok": 0.3075,
+    "price_code_per_mtok": 0.6225,
+    "price_review_per_mtok": 0.255,
+    "price_agent_per_mtok": 0.675,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 16.7,
@@ -3731,7 +3731,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meta-llama/llama-4-maverick",
     "name": "Meta: Llama 4 Maverick",
     "family": "unknown",
@@ -3772,7 +3772,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/o3-mini-high",
     "name": "OpenAI: o3 Mini High",
     "family": "gpt",
@@ -3813,7 +3813,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "upstage/solar-pro-3",
     "name": "Upstage: Solar Pro 3",
     "family": "unknown",
@@ -3854,7 +3854,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5-mini",
     "name": "OpenAI: GPT-5 Mini",
     "family": "gpt",
@@ -3895,7 +3895,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-32b",
     "name": "Qwen: Qwen3 32B",
     "family": "qwen",
@@ -3936,7 +3936,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
     "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
     "family": "nemotron",
@@ -3977,13 +3977,13 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nvidia/nemotron-3-nano-30b-a3b",
     "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
     "family": "nemotron",
     "is_free": "false",
     "context_length": 262144,
-    "max_completion_tokens": 228000,
+    "max_completion_tokens": 262144,
     "input_modalities": "text",
     "output_modalities": "text",
     "supports_tools": "true",
@@ -4018,7 +4018,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/ministral-14b-2512",
     "name": "Mistral: Ministral 3 14B 2512",
     "family": "unknown",
@@ -4059,7 +4059,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
     "family": "nemotron",
@@ -4100,7 +4100,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-14b",
     "name": "Qwen: Qwen3 14B",
     "family": "qwen",
@@ -4141,7 +4141,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4",
     "name": "OpenAI: GPT-4",
     "family": "gpt",
@@ -4182,7 +4182,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
     "name": "Qwen: Qwen3 30B A3B Thinking 2507",
     "family": "qwen",
@@ -4194,18 +4194,18 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.13,
-    "pricing_completion_per_mtok": 1.56,
-    "price_doc_per_mtok": 0.3445,
-    "price_code_per_mtok": 0.7735,
-    "price_review_per_mtok": 0.273,
-    "price_agent_per_mtok": 0.845,
+    "pricing_prompt_per_mtok": 0.2,
+    "pricing_completion_per_mtok": 2.4,
+    "price_doc_per_mtok": 0.53,
+    "price_code_per_mtok": 1.19,
+    "price_review_per_mtok": 0.42,
+    "price_agent_per_mtok": 1.3,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 14.4,
     "coding_index": 12.1,
     "agentic_index": 1.8,
-    "task_tags": "cheap|reasoning|structured_output|tools",
+    "task_tags": "reasoning|structured_output|tools",
     "strength_tags": "reasoning|structured_output|tool_use",
     "weakness_tags": "",
     "coding_role": "unknown",
@@ -4223,7 +4223,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meta-llama/llama-3.3-70b-instruct",
     "name": "Meta: Llama 3.3 70B Instruct",
     "family": "unknown",
@@ -4264,7 +4264,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4o-mini",
     "name": "OpenAI: GPT-4o-mini",
     "family": "gpt",
@@ -4305,7 +4305,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4.1-nano",
     "name": "OpenAI: GPT-4.1 Nano",
     "family": "gpt",
@@ -4346,7 +4346,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-3.5-turbo",
     "name": "OpenAI: GPT-3.5 Turbo",
     "family": "gpt",
@@ -4387,7 +4387,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemma-3-27b-it",
     "name": "Google: Gemma 3 27B",
     "family": "gemini",
@@ -4428,7 +4428,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/ministral-8b-2512",
     "name": "Mistral: Ministral 3 8B 2512",
     "family": "unknown",
@@ -4469,7 +4469,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "ibm-granite/granite-4.1-8b",
     "name": "IBM: Granite 4.1 8B",
     "family": "unknown",
@@ -4510,7 +4510,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-8b",
     "name": "Qwen: Qwen3 8B",
     "family": "qwen",
@@ -4551,7 +4551,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meta-llama/llama-4-scout",
     "name": "Meta: Llama 4 Scout",
     "family": "unknown",
@@ -4592,7 +4592,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemma-3-12b-it",
     "name": "Google: Gemma 3 12B",
     "family": "gemini",
@@ -4633,7 +4633,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meta-llama/llama-3.1-8b-instruct",
     "name": "Meta: Llama 3.1 8B Instruct",
     "family": "unknown",
@@ -4674,7 +4674,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/ministral-3b-2512",
     "name": "Mistral: Ministral 3 3B 2512",
     "family": "unknown",
@@ -4694,7 +4694,7 @@
     "price_agent_per_mtok": 0.1,
     "weekly_rank": "",
     "weekly_tokens": 0,
-    "intelligence_index": 6.5,
+    "intelligence_index": 6.8,
     "coding_index": 4.8,
     "agentic_index": 1.6,
     "task_tags": "cheap|long_context|structured_output|tools",
@@ -4715,7 +4715,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemma-3n-e4b-it",
     "name": "Google: Gemma 3n 4B",
     "family": "gemini",
@@ -4756,7 +4756,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemma-3-4b-it",
     "name": "Google: Gemma 3 4B",
     "family": "gemini",
@@ -4797,7 +4797,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openrouter/auto",
     "name": "Auto Router",
     "family": "unknown",
@@ -4838,7 +4838,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openrouter/auto-beta",
     "name": "Auto Router (Beta)",
     "family": "unknown",
@@ -4879,7 +4879,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openrouter/bodybuilder",
     "name": "Body Builder (beta)",
     "family": "unknown",
@@ -4920,7 +4920,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openrouter/fusion",
     "name": "OpenRouter: Fusion",
     "family": "unknown",
@@ -4961,7 +4961,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openrouter/pareto-code",
     "name": "Pareto Code Router",
     "family": "unknown",
@@ -5002,7 +5002,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/lyria-3-clip-preview",
     "name": "Google: Lyria 3 Clip Preview",
     "family": "gemini",
@@ -5043,7 +5043,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/lyria-3-pro-preview",
     "name": "Google: Lyria 3 Pro Preview",
     "family": "gemini",
@@ -5084,7 +5084,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "inclusionai/ling-3.0-flash:free",
     "name": "Ling-3.0-flash (free)",
     "family": "unknown",
@@ -5125,7 +5125,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nvidia/nemotron-3.5-content-safety:free",
     "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
     "family": "nemotron",
@@ -5166,7 +5166,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
     "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
     "family": "nemotron",
@@ -5207,7 +5207,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nvidia/nemotron-nano-9b-v2:free",
     "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
     "family": "nemotron",
@@ -5248,7 +5248,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openrouter/free",
     "name": "Free Models Router",
     "family": "unknown",
@@ -5289,48 +5289,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "poolside/laguna-m.1:free",
-    "name": "Poolside: Laguna M.1 (free)",
-    "family": "poolside",
-    "is_free": "true",
-    "context_length": 262144,
-    "max_completion_tokens": 32768,
-    "input_modalities": "text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "false",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.0,
-    "pricing_completion_per_mtok": 0.0,
-    "price_doc_per_mtok": 0.0,
-    "price_code_per_mtok": 0.0,
-    "price_review_per_mtok": 0.0,
-    "price_agent_per_mtok": 0.0,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "cheap|coding|free|long_context|reasoning|tools",
-    "strength_tags": "reasoning|tool_use",
-    "weakness_tags": "expiration_date_set",
-    "coding_role": "cheap",
-    "documentation_role": "cheap",
-    "testing_role": "cheap",
-    "frontend_role": "cheap",
-    "backend_role": "cheap",
-    "architecture_role": "fallback",
-    "planning_role": "fallback",
-    "reasoning_role": "fallback",
-    "local_dev_role": "free",
-    "production_role": "avoid",
-    "trust_tier": "free",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "poolside/laguna-s-2.1:free",
     "name": "Poolside: Laguna S 2.1 (free)",
     "family": "poolside",
@@ -5371,7 +5330,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "poolside/laguna-xs-2.1:free",
     "name": "Poolside: Laguna XS 2.1 (free)",
     "family": "poolside",
@@ -5412,7 +5371,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-nemo",
     "name": "Mistral: Mistral Nemo",
     "family": "unknown",
@@ -5453,7 +5412,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "sao10k/l3-lunaris-8b",
     "name": "Sao10K: Llama 3 8B Lunaris",
     "family": "unknown",
@@ -5494,7 +5453,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "gryphe/mythomax-l2-13b",
     "name": "MythoMax 13B",
     "family": "unknown",
@@ -5535,7 +5494,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nex-agi/nex-n2-mini",
     "name": "Nex AGI: Nex-N2-Mini",
     "family": "nex",
@@ -5576,7 +5535,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "ibm-granite/granite-4.0-h-micro",
     "name": "IBM: Granite 4.0 Micro",
     "family": "unknown",
@@ -5617,7 +5576,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-small-24b-instruct-2501",
     "name": "Mistral: Mistral Small 3",
     "family": "unknown",
@@ -5658,48 +5617,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "qwen/qwen-2.5-7b-instruct",
-    "name": "Qwen: Qwen2.5 7B Instruct",
+    "snapshot_date": "2026-08-03",
+    "model_id": "qwen/qwen3.7-flash",
+    "name": "Qwen: Qwen3.7 Flash",
     "family": "qwen",
     "is_free": "false",
-    "context_length": 32768,
-    "max_completion_tokens": 32768,
-    "input_modalities": "text",
+    "context_length": 1000000,
+    "max_completion_tokens": 65536,
+    "input_modalities": "text|image|video",
     "output_modalities": "text",
     "supports_tools": "true",
     "supports_structured_output": "true",
-    "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 0.04,
-    "pricing_completion_per_mtok": 0.1,
-    "price_doc_per_mtok": 0.049,
-    "price_code_per_mtok": 0.067,
-    "price_review_per_mtok": 0.046,
-    "price_agent_per_mtok": 0.07,
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.03,
+    "pricing_completion_per_mtok": 0.13,
+    "price_doc_per_mtok": 0.045,
+    "price_code_per_mtok": 0.075,
+    "price_review_per_mtok": 0.04,
+    "price_agent_per_mtok": 0.08,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 0.0,
     "coding_index": 0.0,
     "agentic_index": 0.0,
-    "task_tags": "cheap|coding|structured_output|tools",
-    "strength_tags": "structured_output|tool_use",
+    "task_tags": "cheap|coding|long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use|very_long_context",
     "weakness_tags": "",
-    "coding_role": "fallback",
+    "coding_role": "primary",
     "documentation_role": "cheap",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "cheap",
-    "planning_role": "cheap",
-    "reasoning_role": "cheap",
-    "local_dev_role": "cheap",
-    "production_role": "cheap",
+    "testing_role": "primary",
+    "frontend_role": "primary",
+    "backend_role": "primary",
+    "architecture_role": "high_reasoning",
+    "planning_role": "primary",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "primary",
+    "production_role": "primary",
     "trust_tier": "paid",
     "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "amazon/nova-micro-v1",
     "name": "Amazon: Nova Micro 1.0",
     "family": "unknown",
@@ -5740,7 +5699,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "poolside/laguna-xs-2.1",
     "name": "Poolside: Laguna XS 2.1",
     "family": "poolside",
@@ -5781,7 +5740,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "cohere/command-r7b-12-2024",
     "name": "Cohere: Command R7B (12-2024)",
     "family": "cohere",
@@ -5822,7 +5781,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "rekaai/reka-edge",
     "name": "Reka Edge",
     "family": "unknown",
@@ -5863,7 +5822,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "microsoft/phi-4",
     "name": "Microsoft: Phi 4",
     "family": "unknown",
@@ -5904,7 +5863,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meta-llama/llama-3.2-1b-instruct",
     "name": "Meta: Llama 3.2 1B Instruct",
     "family": "unknown",
@@ -5945,7 +5904,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
     "name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "family": "qwen",
@@ -5986,7 +5945,130 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "poolside/laguna-s-2.1",
+    "name": "Poolside: Laguna S 2.1",
+    "family": "poolside",
+    "is_free": "false",
+    "context_length": 1048576,
+    "max_completion_tokens": 131072,
+    "input_modalities": "text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "false",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.09,
+    "pricing_completion_per_mtok": 0.18,
+    "price_doc_per_mtok": 0.1035,
+    "price_code_per_mtok": 0.1305,
+    "price_review_per_mtok": 0.099,
+    "price_agent_per_mtok": 0.135,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "cheap|coding|long_context|reasoning|tools",
+    "strength_tags": "reasoning|tool_use|very_long_context",
+    "weakness_tags": "",
+    "coding_role": "primary",
+    "documentation_role": "cheap",
+    "testing_role": "primary",
+    "frontend_role": "primary",
+    "backend_role": "primary",
+    "architecture_role": "high_reasoning",
+    "planning_role": "primary",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "primary",
+    "production_role": "primary",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
+    "model_id": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek V4 Flash Latest",
+    "family": "unknown",
+    "is_free": "false",
+    "context_length": 1048576,
+    "max_completion_tokens": 65536,
+    "input_modalities": "text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.09,
+    "pricing_completion_per_mtok": 0.18,
+    "price_doc_per_mtok": 0.1035,
+    "price_code_per_mtok": 0.1305,
+    "price_review_per_mtok": 0.099,
+    "price_agent_per_mtok": 0.135,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "cheap|long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use|very_long_context",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "cheap",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "high_reasoning",
+    "planning_role": "primary",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "primary",
+    "production_role": "primary",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
+    "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+    "name": "Mistral: Mistral Small 3.2 24B",
+    "family": "unknown",
+    "is_free": "false",
+    "context_length": 256000,
+    "max_completion_tokens": 16384,
+    "input_modalities": "image|text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "false",
+    "pricing_prompt_per_mtok": 0.075,
+    "pricing_completion_per_mtok": 0.2,
+    "price_doc_per_mtok": 0.09375,
+    "price_code_per_mtok": 0.13125,
+    "price_review_per_mtok": 0.0875,
+    "price_agent_per_mtok": 0.1375,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "cheap|long_context|structured_output|tools",
+    "strength_tags": "structured_output|tool_use",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "cheap",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "cheap",
+    "planning_role": "cheap",
+    "reasoning_role": "cheap",
+    "local_dev_role": "cheap",
+    "production_role": "cheap",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "amazon/nova-lite-v1",
     "name": "Amazon: Nova Lite 1.0",
     "family": "unknown",
@@ -6027,7 +6109,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "bytedance/ui-tars-1.5-7b",
     "name": "ByteDance: UI-TARS 7B ",
     "family": "unknown",
@@ -6068,18 +6150,18 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "poolside/laguna-s-2.1",
-    "name": "Poolside: Laguna S 2.1",
-    "family": "poolside",
+    "snapshot_date": "2026-08-03",
+    "model_id": "qwen/qwen-2.5-7b-instruct",
+    "name": "Qwen: Qwen2.5 7B Instruct",
+    "family": "qwen",
     "is_free": "false",
-    "context_length": 1048576,
-    "max_completion_tokens": 131072,
+    "context_length": 32768,
+    "max_completion_tokens": 32768,
     "input_modalities": "text",
     "output_modalities": "text",
     "supports_tools": "true",
-    "supports_structured_output": "false",
-    "supports_reasoning": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "false",
     "pricing_prompt_per_mtok": 0.1,
     "pricing_completion_per_mtok": 0.2,
     "price_doc_per_mtok": 0.115,
@@ -6091,25 +6173,25 @@
     "intelligence_index": 0.0,
     "coding_index": 0.0,
     "agentic_index": 0.0,
-    "task_tags": "cheap|coding|long_context|reasoning|tools",
-    "strength_tags": "reasoning|tool_use|very_long_context",
+    "task_tags": "cheap|coding|structured_output|tools",
+    "strength_tags": "structured_output|tool_use",
     "weakness_tags": "",
-    "coding_role": "primary",
+    "coding_role": "fallback",
     "documentation_role": "cheap",
-    "testing_role": "primary",
-    "frontend_role": "primary",
-    "backend_role": "primary",
-    "architecture_role": "high_reasoning",
-    "planning_role": "primary",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "primary",
-    "production_role": "primary",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "cheap",
+    "planning_role": "cheap",
+    "reasoning_role": "cheap",
+    "local_dev_role": "cheap",
+    "production_role": "cheap",
     "trust_tier": "paid",
     "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "rekaai/reka-flash-3",
     "name": "Reka Flash 3",
     "family": "unknown",
@@ -6150,7 +6232,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.5-flash-02-23",
     "name": "Qwen: Qwen3.5-Flash",
     "family": "qwen",
@@ -6191,24 +6273,24 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
     "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
     "family": "qwen",
     "is_free": "false",
     "context_length": 262144,
-    "max_completion_tokens": 32768,
+    "max_completion_tokens": 262144,
     "input_modalities": "text",
     "output_modalities": "text",
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "false",
     "pricing_prompt_per_mtok": 0.07,
-    "pricing_completion_per_mtok": 0.27,
-    "price_doc_per_mtok": 0.1,
-    "price_code_per_mtok": 0.16,
-    "price_review_per_mtok": 0.09,
-    "price_agent_per_mtok": 0.17,
+    "pricing_completion_per_mtok": 0.28,
+    "price_doc_per_mtok": 0.1015,
+    "price_code_per_mtok": 0.1645,
+    "price_review_per_mtok": 0.091,
+    "price_agent_per_mtok": 0.175,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 0.0,
@@ -6232,7 +6314,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meta-llama/llama-guard-4-12b",
     "name": "Meta: Llama Guard 4 12B",
     "family": "unknown",
@@ -6273,7 +6355,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "bytedance-seed/seed-1.6-flash",
     "name": "ByteDance Seed: Seed 1.6 Flash",
     "family": "unknown",
@@ -6314,7 +6396,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-oss-safeguard-20b",
     "name": "OpenAI: gpt-oss-safeguard-20b",
     "family": "gpt",
@@ -6355,7 +6437,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meta-llama/llama-3.2-3b-instruct",
     "name": "Meta: Llama 3.2 3B Instruct",
     "family": "unknown",
@@ -6396,48 +6478,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "mistralai/mistral-small-3.2-24b-instruct",
-    "name": "Mistral: Mistral Small 3.2 24B",
-    "family": "unknown",
-    "is_free": "false",
-    "context_length": 256000,
-    "max_completion_tokens": 0,
-    "input_modalities": "image|text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 0.1,
-    "pricing_completion_per_mtok": 0.3,
-    "price_doc_per_mtok": 0.13,
-    "price_code_per_mtok": 0.19,
-    "price_review_per_mtok": 0.12,
-    "price_agent_per_mtok": 0.2,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "cheap|long_context|structured_output|tools",
-    "strength_tags": "structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "cheap",
-    "documentation_role": "cheap",
-    "testing_role": "cheap",
-    "frontend_role": "cheap",
-    "backend_role": "cheap",
-    "architecture_role": "cheap",
-    "planning_role": "cheap",
-    "reasoning_role": "cheap",
-    "local_dev_role": "cheap",
-    "production_role": "cheap",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/voxtral-small-24b-2507",
     "name": "Mistral: Voxtral Small 24B 2507",
     "family": "unknown",
@@ -6478,7 +6519,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "stepfun/step-3.5-flash",
     "name": "StepFun: Step 3.5 Flash",
     "family": "unknown",
@@ -6519,7 +6560,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "family": "unknown",
+    "is_free": "false",
+    "context_length": 1048576,
+    "max_completion_tokens": 393216,
+    "input_modalities": "text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.14,
+    "pricing_completion_per_mtok": 0.28,
+    "price_doc_per_mtok": 0.161,
+    "price_code_per_mtok": 0.203,
+    "price_review_per_mtok": 0.154,
+    "price_agent_per_mtok": 0.21,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "cheap|long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use|very_long_context",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "cheap",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "high_reasoning",
+    "planning_role": "primary",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "primary",
+    "production_role": "primary",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5-nano",
     "name": "OpenAI: GPT-5 Nano",
     "family": "gpt",
@@ -6560,7 +6642,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-4.7-flash",
     "name": "Z.ai: GLM 4.7 Flash",
     "family": "glm",
@@ -6601,7 +6683,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "bytedance-seed/seed-2.0-mini",
     "name": "ByteDance Seed: Seed-2.0-Mini",
     "family": "unknown",
@@ -6642,7 +6724,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-2.5-flash-lite",
     "name": "Google: Gemini 2.5 Flash Lite",
     "family": "gemini",
@@ -6683,7 +6765,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-vl-32b-instruct",
     "name": "Qwen: Qwen3 VL 32B Instruct",
     "family": "qwen",
@@ -6724,7 +6806,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nousresearch/hermes-4-70b",
     "name": "Nous: Hermes 4 70B",
     "family": "unknown",
@@ -6765,7 +6847,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-vl-8b-instruct",
     "name": "Qwen: Qwen3 VL 8B Instruct",
     "family": "qwen",
@@ -6806,48 +6888,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "poolside/laguna-m.1",
-    "name": "Poolside: Laguna M.1",
-    "family": "poolside",
-    "is_free": "false",
-    "context_length": 262144,
-    "max_completion_tokens": 32768,
-    "input_modalities": "text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "false",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.2,
-    "pricing_completion_per_mtok": 0.4,
-    "price_doc_per_mtok": 0.23,
-    "price_code_per_mtok": 0.29,
-    "price_review_per_mtok": 0.22,
-    "price_agent_per_mtok": 0.3,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "cheap|coding|long_context|reasoning|tools",
-    "strength_tags": "reasoning|tool_use",
-    "weakness_tags": "expiration_date_set",
-    "coding_role": "fallback",
-    "documentation_role": "cheap",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "high_reasoning",
-    "planning_role": "primary",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "primary",
-    "production_role": "primary",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-30b-a3b",
     "name": "Qwen: Qwen3 30B A3B",
     "family": "qwen",
@@ -6888,48 +6929,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "qwen/qwen3-235b-a22b-2507",
-    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
-    "family": "qwen",
-    "is_free": "false",
-    "context_length": 262144,
-    "max_completion_tokens": 16384,
-    "input_modalities": "text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 0.09,
-    "pricing_completion_per_mtok": 0.55,
-    "price_doc_per_mtok": 0.159,
-    "price_code_per_mtok": 0.297,
-    "price_review_per_mtok": 0.136,
-    "price_agent_per_mtok": 0.32,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "cheap|long_context|structured_output|tools",
-    "strength_tags": "structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "cheap",
-    "documentation_role": "cheap",
-    "testing_role": "cheap",
-    "frontend_role": "cheap",
-    "backend_role": "cheap",
-    "architecture_role": "cheap",
-    "planning_role": "cheap",
-    "reasoning_role": "cheap",
-    "local_dev_role": "cheap",
-    "production_role": "cheap",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "allenai/olmo-3-32b-think",
     "name": "AllenAI: Olmo 3 32B Think",
     "family": "unknown",
@@ -6970,7 +6970,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "family": "qwen",
+    "is_free": "false",
+    "context_length": 262144,
+    "max_completion_tokens": 32768,
+    "input_modalities": "text|image",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "false",
+    "pricing_prompt_per_mtok": 0.13,
+    "pricing_completion_per_mtok": 0.52,
+    "price_doc_per_mtok": 0.1885,
+    "price_code_per_mtok": 0.3055,
+    "price_review_per_mtok": 0.169,
+    "price_agent_per_mtok": 0.325,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "cheap|long_context|structured_output|tools",
+    "strength_tags": "structured_output|tool_use",
+    "weakness_tags": "",
+    "coding_role": "cheap",
+    "documentation_role": "cheap",
+    "testing_role": "cheap",
+    "frontend_role": "cheap",
+    "backend_role": "cheap",
+    "architecture_role": "cheap",
+    "planning_role": "cheap",
+    "reasoning_role": "cheap",
+    "local_dev_role": "cheap",
+    "production_role": "cheap",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "tencent/hy3",
     "name": "Tencent: Hy3",
     "family": "tencent",
@@ -7011,7 +7052,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "deepseek/deepseek-v3.2-exp",
     "name": "DeepSeek: DeepSeek V3.2 Exp",
     "family": "unknown",
@@ -7052,7 +7093,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "inclusionai/ling-2.6-1t",
     "name": "inclusionAI: Ling-2.6-1T",
     "family": "unknown",
@@ -7093,7 +7134,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "openai/gpt-5.6-luna-pro",
+    "name": "OpenAI: GPT-5.6 Luna Pro",
+    "family": "gpt",
+    "is_free": "false",
+    "context_length": 1050000,
+    "max_completion_tokens": 128000,
+    "input_modalities": "file|image|text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.1,
+    "pricing_completion_per_mtok": 0.6,
+    "price_doc_per_mtok": 0.175,
+    "price_code_per_mtok": 0.325,
+    "price_review_per_mtok": 0.15,
+    "price_agent_per_mtok": 0.35,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "cheap|long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use|very_long_context",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "cheap",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "high_reasoning",
+    "planning_role": "primary",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "primary",
+    "production_role": "primary",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "tencent/hunyuan-a13b-instruct",
     "name": "Tencent: Hunyuan A13B Instruct",
     "family": "tencent",
@@ -7134,7 +7216,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "family": "qwen",
+    "is_free": "false",
+    "context_length": 262144,
+    "max_completion_tokens": 32768,
+    "input_modalities": "text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "false",
+    "pricing_prompt_per_mtok": 0.1495,
+    "pricing_completion_per_mtok": 0.598,
+    "price_doc_per_mtok": 0.216775,
+    "price_code_per_mtok": 0.351325,
+    "price_review_per_mtok": 0.19435,
+    "price_agent_per_mtok": 0.37375,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "cheap|long_context|structured_output|tools",
+    "strength_tags": "structured_output|tool_use",
+    "weakness_tags": "",
+    "coding_role": "cheap",
+    "documentation_role": "cheap",
+    "testing_role": "cheap",
+    "frontend_role": "cheap",
+    "backend_role": "cheap",
+    "architecture_role": "cheap",
+    "planning_role": "cheap",
+    "reasoning_role": "cheap",
+    "local_dev_role": "cheap",
+    "production_role": "cheap",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "cohere/command-r-08-2024",
     "name": "Cohere: Command R (08-2024)",
     "family": "cohere",
@@ -7175,7 +7298,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "kwaipilot/kat-coder-air-v2.5",
     "name": "Kwaipilot: KAT-Coder-Air V2.5",
     "family": "unknown",
@@ -7216,7 +7339,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4o-mini-2024-07-18",
     "name": "OpenAI: GPT-4o-mini (2024-07-18)",
     "family": "gpt",
@@ -7257,48 +7380,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
-    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-    "family": "qwen",
-    "is_free": "false",
-    "context_length": 262144,
-    "max_completion_tokens": 16384,
-    "input_modalities": "text|image",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 0.15,
-    "pricing_completion_per_mtok": 0.6,
-    "price_doc_per_mtok": 0.2175,
-    "price_code_per_mtok": 0.3525,
-    "price_review_per_mtok": 0.195,
-    "price_agent_per_mtok": 0.375,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "cheap|long_context|structured_output|tools",
-    "strength_tags": "structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "cheap",
-    "documentation_role": "cheap",
-    "testing_role": "cheap",
-    "frontend_role": "cheap",
-    "backend_role": "cheap",
-    "architecture_role": "cheap",
-    "planning_role": "cheap",
-    "reasoning_role": "cheap",
-    "local_dev_role": "cheap",
-    "production_role": "cheap",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "thedrummer/rocinante-12b",
     "name": "TheDrummer: Rocinante 12B",
     "family": "unknown",
@@ -7339,7 +7421,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen-2.5-72b-instruct",
     "name": "Qwen2.5 72B Instruct",
     "family": "qwen",
@@ -7380,7 +7462,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meta-llama/llama-3.1-70b-instruct",
     "name": "Meta: Llama 3.1 70B Instruct",
     "family": "unknown",
@@ -7421,7 +7503,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-saba",
     "name": "Mistral: Saba",
     "family": "unknown",
@@ -7462,7 +7544,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "thedrummer/cydonia-24b-v4.1",
     "name": "TheDrummer: Cydonia 24B V4.1",
     "family": "unknown",
@@ -7503,13 +7585,13 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "thedrummer/unslopnemo-12b",
     "name": "TheDrummer: UnslopNemo 12B",
     "family": "unknown",
     "is_free": "false",
-    "context_length": 32768,
-    "max_completion_tokens": 32768,
+    "context_length": 1024000,
+    "max_completion_tokens": 1024000,
     "input_modalities": "text",
     "output_modalities": "text",
     "supports_tools": "true",
@@ -7526,8 +7608,8 @@
     "intelligence_index": 0.0,
     "coding_index": 0.0,
     "agentic_index": 0.0,
-    "task_tags": "cheap|structured_output|tools",
-    "strength_tags": "structured_output|tool_use",
+    "task_tags": "cheap|long_context|structured_output|tools",
+    "strength_tags": "structured_output|tool_use|very_long_context",
     "weakness_tags": "",
     "coding_role": "cheap",
     "documentation_role": "cheap",
@@ -7544,7 +7626,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-small-3.1-24b-instruct",
     "name": "Mistral: Mistral Small 3.1 24B",
     "family": "unknown",
@@ -7585,7 +7667,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-4.5-air",
     "name": "Z.ai: GLM 4.5 Air",
     "family": "glm",
@@ -7626,48 +7708,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "deepseek/deepseek-chat",
-    "name": "DeepSeek: DeepSeek V3",
-    "family": "unknown",
-    "is_free": "false",
-    "context_length": 163840,
-    "max_completion_tokens": 16000,
-    "input_modalities": "text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 0.2002,
-    "pricing_completion_per_mtok": 0.8001,
-    "price_doc_per_mtok": 0.290185,
-    "price_code_per_mtok": 0.470155,
-    "price_review_per_mtok": 0.26019,
-    "price_agent_per_mtok": 0.50015,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "cheap|coding|long_context|structured_output|tools",
-    "strength_tags": "structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "cheap",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "unknown",
-    "planning_role": "cheap",
-    "reasoning_role": "unknown",
-    "local_dev_role": "unknown",
-    "production_role": "unknown",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen-plus",
     "name": "Qwen: Qwen-Plus",
     "family": "qwen",
@@ -7708,7 +7749,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen-plus-2025-07-28",
     "name": "Qwen: Qwen Plus 0728",
     "family": "qwen",
@@ -7749,48 +7790,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "qwen/qwen-plus-2025-07-28:thinking",
-    "name": "Qwen: Qwen Plus 0728 (thinking)",
-    "family": "qwen",
-    "is_free": "false",
-    "context_length": 1000000,
-    "max_completion_tokens": 32768,
-    "input_modalities": "text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.26,
-    "pricing_completion_per_mtok": 0.78,
-    "price_doc_per_mtok": 0.338,
-    "price_code_per_mtok": 0.494,
-    "price_review_per_mtok": 0.312,
-    "price_agent_per_mtok": 0.52,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "cheap|long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use|very_long_context",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "cheap",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "high_reasoning",
-    "planning_role": "primary",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "primary",
-    "production_role": "primary",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "family": "unknown",
@@ -7831,7 +7831,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
     "name": "Venice: Uncensored",
     "family": "unknown",
@@ -7872,7 +7872,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "undi95/remm-slerp-l2-13b",
     "name": "ReMM SLERP 13B",
     "family": "unknown",
@@ -7913,7 +7913,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-coder-flash",
     "name": "Qwen: Qwen3 Coder Flash",
     "family": "qwen",
@@ -7954,7 +7954,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "deepseek/deepseek-chat-v3.1",
     "name": "DeepSeek: DeepSeek V3.1",
     "family": "unknown",
@@ -7995,7 +7995,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/codestral-2508",
     "name": "Mistral: Codestral 2508",
     "family": "unknown",
@@ -8036,7 +8036,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-next-80b-a3b-instruct",
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "family": "qwen",
@@ -8077,7 +8077,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-4.6v",
     "name": "Z.ai: GLM 4.6V",
     "family": "glm",
@@ -8118,7 +8118,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "microsoft/wizardlm-2-8x22b",
     "name": "WizardLM-2 8x22B",
     "family": "unknown",
@@ -8159,7 +8159,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mancer/weaver",
     "name": "Mancer: Weaver (alpha)",
     "family": "unknown",
@@ -8200,7 +8200,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "minimax/minimax-m2",
     "name": "MiniMax: MiniMax M2",
     "family": "unknown",
@@ -8241,7 +8241,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "family": "unknown",
+    "is_free": "false",
+    "context_length": 163840,
+    "max_completion_tokens": 16000,
+    "input_modalities": "text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "false",
+    "pricing_prompt_per_mtok": 0.2574,
+    "pricing_completion_per_mtok": 1.0287,
+    "price_doc_per_mtok": 0.373095,
+    "price_code_per_mtok": 0.604485,
+    "price_review_per_mtok": 0.33453,
+    "price_agent_per_mtok": 0.64305,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "cheap|coding|long_context|structured_output|tools",
+    "strength_tags": "structured_output|tool_use",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "cheap",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "unknown",
+    "planning_role": "cheap",
+    "reasoning_role": "unknown",
+    "local_dev_role": "unknown",
+    "production_role": "unknown",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemma-2-27b-it",
     "name": "Google: Gemma 2 27B",
     "family": "gemini",
@@ -8282,7 +8323,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "minimax/minimax-01",
     "name": "MiniMax: MiniMax-01",
     "family": "unknown",
@@ -8323,7 +8364,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-coder",
     "name": "Qwen: Qwen3 Coder 480B A35B",
     "family": "qwen",
@@ -8364,7 +8405,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.6-flash",
     "name": "Qwen: Qwen3.6 Flash",
     "family": "qwen",
@@ -8405,7 +8446,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "thedrummer/skyfall-36b-v2",
     "name": "TheDrummer: Skyfall 36B V2",
     "family": "unknown",
@@ -8446,7 +8487,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nousresearch/hermes-3-llama-3.1-70b",
     "name": "Nous: Hermes 3 70B Instruct",
     "family": "unknown",
@@ -8487,7 +8528,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "sao10k/l3.3-euryale-70b",
     "name": "Sao10K: Llama 3.3 Euryale 70B",
     "family": "unknown",
@@ -8528,48 +8569,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "qwen/qwen3-vl-8b-thinking",
-    "name": "Qwen: Qwen3 VL 8B Thinking",
-    "family": "qwen",
-    "is_free": "false",
-    "context_length": 131072,
-    "max_completion_tokens": 32768,
-    "input_modalities": "image|text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.117,
-    "pricing_completion_per_mtok": 1.365,
-    "price_doc_per_mtok": 0.3042,
-    "price_code_per_mtok": 0.6786,
-    "price_review_per_mtok": 0.2418,
-    "price_agent_per_mtok": 0.741,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "cheap|long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "cheap",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "high_reasoning",
-    "planning_role": "primary",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "fallback",
-    "production_role": "fallback",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-3-haiku",
     "name": "Anthropic: Claude 3 Haiku",
     "family": "claude",
@@ -8610,7 +8610,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "meituan/longcat-2.0",
     "name": "Meituan: LongCat 2.0",
     "family": "unknown",
@@ -8651,7 +8651,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "minimax/minimax-m2-her",
     "name": "MiniMax: MiniMax M2-her",
     "family": "unknown",
@@ -8692,7 +8692,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "minimax/minimax-m2.1",
     "name": "MiniMax: MiniMax M2.1",
     "family": "unknown",
@@ -8733,7 +8733,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "deepseek/deepseek-r1-distill-llama-70b",
     "name": "DeepSeek: R1 Distill Llama 70B",
     "family": "unknown",
@@ -8774,7 +8774,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "qwen/qwen-plus-2025-07-28:thinking",
+    "name": "Qwen: Qwen Plus 0728 (thinking)",
+    "family": "qwen",
+    "is_free": "false",
+    "context_length": 1000000,
+    "max_completion_tokens": 32768,
+    "input_modalities": "text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.4,
+    "pricing_completion_per_mtok": 1.2,
+    "price_doc_per_mtok": 0.52,
+    "price_code_per_mtok": 0.76,
+    "price_review_per_mtok": 0.48,
+    "price_agent_per_mtok": 0.8,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "cheap|long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use|very_long_context",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "cheap",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "high_reasoning",
+    "planning_role": "primary",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "primary",
+    "production_role": "primary",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "perceptron/perceptron-mk1",
     "name": "Perceptron: Perceptron Mk1",
     "family": "unknown",
@@ -8815,7 +8856,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen-2.5-coder-32b-instruct",
     "name": "Qwen2.5 Coder 32B Instruct",
     "family": "qwen",
@@ -8856,7 +8897,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "baidu/ernie-4.5-vl-424b-a47b",
     "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
     "family": "unknown",
@@ -8897,48 +8938,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
-    "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-    "family": "qwen",
-    "is_free": "false",
-    "context_length": 262144,
-    "max_completion_tokens": 32768,
-    "input_modalities": "text|image",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.13,
-    "pricing_completion_per_mtok": 1.56,
-    "price_doc_per_mtok": 0.3445,
-    "price_code_per_mtok": 0.7735,
-    "price_review_per_mtok": 0.273,
-    "price_agent_per_mtok": 0.845,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "cheap|long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "cheap",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "high_reasoning",
-    "planning_role": "primary",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "fallback",
-    "production_role": "fallback",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "sao10k/l3.1-euryale-70b",
     "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
     "family": "unknown",
@@ -8979,7 +8979,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.1-flash-lite",
     "name": "Google: Gemini 3.1 Flash Lite",
     "family": "gemini",
@@ -9020,13 +9020,13 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.1-flash-lite-image",
     "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
     "family": "gemini",
     "is_free": "false",
     "context_length": 65536,
-    "max_completion_tokens": 66000,
+    "max_completion_tokens": 65536,
     "input_modalities": "image|text",
     "output_modalities": "image|text",
     "supports_tools": "false",
@@ -9061,7 +9061,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.5-27b",
     "name": "Qwen: Qwen3.5-27B",
     "family": "qwen",
@@ -9102,7 +9102,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen2.5-vl-72b-instruct",
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "family": "qwen",
@@ -9143,7 +9143,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.5-plus-02-15",
     "name": "Qwen: Qwen3.5 Plus 2026-02-15",
     "family": "qwen",
@@ -9184,7 +9184,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "arcee-ai/virtuoso-large",
     "name": "Arcee AI: Virtuoso Large",
     "family": "unknown",
@@ -9225,7 +9225,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "morph/morph-v3-fast",
     "name": "Morph: Morph V3 Fast",
     "family": "unknown",
@@ -9266,7 +9266,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nousresearch/hermes-3-llama-3.1-405b",
     "name": "Nous: Hermes 3 405B Instruct",
     "family": "unknown",
@@ -9307,7 +9307,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "perplexity/sonar",
     "name": "Perplexity: Sonar",
     "family": "unknown",
@@ -9348,7 +9348,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "aion-labs/aion-3.0-mini",
     "name": "AionLabs: Aion-3.0-Mini",
     "family": "unknown",
@@ -9389,7 +9389,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.5-plus-20260420",
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "family": "qwen",
@@ -9430,7 +9430,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "relace/relace-apply-3",
     "name": "Relace: Relace Apply 3",
     "family": "unknown",
@@ -9471,7 +9471,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
     "name": "Qwen: Qwen3 VL 235B A22B Instruct",
     "family": "qwen",
@@ -9512,7 +9512,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "bytedance-seed/seed-1.6",
     "name": "ByteDance Seed: Seed 1.6",
     "family": "unknown",
@@ -9553,7 +9553,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "bytedance-seed/seed-2.0-lite",
     "name": "ByteDance Seed: Seed-2.0-Lite",
     "family": "unknown",
@@ -9594,7 +9594,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.1-codex-mini",
     "name": "OpenAI: GPT-5.1-Codex-Mini",
     "family": "gpt",
@@ -9635,7 +9635,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-235b-a22b",
     "name": "Qwen: Qwen3 235B A22B",
     "family": "qwen",
@@ -9676,7 +9676,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "qwen/qwen3-vl-8b-thinking",
+    "name": "Qwen: Qwen3 VL 8B Thinking",
+    "family": "qwen",
+    "is_free": "false",
+    "context_length": 131072,
+    "max_completion_tokens": 32768,
+    "input_modalities": "image|text",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.18,
+    "pricing_completion_per_mtok": 2.1,
+    "price_doc_per_mtok": 0.468,
+    "price_code_per_mtok": 1.044,
+    "price_review_per_mtok": 0.372,
+    "price_agent_per_mtok": 1.14,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "cheap",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "high_reasoning",
+    "planning_role": "fallback",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "fallback",
+    "production_role": "fallback",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "aion-labs/aion-2.0",
     "name": "AionLabs: Aion-2.0",
     "family": "unknown",
@@ -9717,7 +9758,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "aion-labs/aion-rp-llama-3.1-8b",
     "name": "AionLabs: Aion-RP 1.0 (8B)",
     "family": "unknown",
@@ -9758,7 +9799,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-medium-3",
     "name": "Mistral: Mistral Medium 3",
     "family": "unknown",
@@ -9799,7 +9840,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-4.5v",
     "name": "Z.ai: GLM 4.5V",
     "family": "glm",
@@ -9840,7 +9881,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "deepcogito/cogito-v2.1-671b",
     "name": "Deep Cogito: Cogito v2.1 671B",
     "family": "unknown",
@@ -9881,7 +9922,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+    "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "family": "qwen",
+    "is_free": "false",
+    "context_length": 262144,
+    "max_completion_tokens": 32768,
+    "input_modalities": "text|image",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.2,
+    "pricing_completion_per_mtok": 2.4,
+    "price_doc_per_mtok": 0.53,
+    "price_code_per_mtok": 1.19,
+    "price_review_per_mtok": 0.42,
+    "price_agent_per_mtok": 1.3,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "cheap",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "high_reasoning",
+    "planning_role": "fallback",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "fallback",
+    "production_role": "fallback",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "deepseek/deepseek-r1-0528",
     "name": "DeepSeek: R1 0528",
     "family": "unknown",
@@ -9922,7 +10004,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "minimax/minimax-m1",
     "name": "MiniMax: MiniMax M1",
     "family": "unknown",
@@ -9963,7 +10045,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-2.5-flash",
     "name": "Google: Gemini 2.5 Flash",
     "family": "gemini",
@@ -10004,7 +10086,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-2.5-flash-image",
     "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
     "family": "gemini",
@@ -10045,7 +10127,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "morph/morph-v3-large",
     "name": "Morph: Morph V3 Large",
     "family": "unknown",
@@ -10086,7 +10168,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-4.5",
     "name": "Z.ai: GLM 4.5",
     "family": "glm",
@@ -10127,48 +10209,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
-    "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-    "family": "qwen",
-    "is_free": "false",
-    "context_length": 131072,
-    "max_completion_tokens": 32768,
-    "input_modalities": "text|image",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 0.26,
-    "pricing_completion_per_mtok": 2.6,
-    "price_doc_per_mtok": 0.611,
-    "price_code_per_mtok": 1.313,
-    "price_review_per_mtok": 0.494,
-    "price_agent_per_mtok": 1.43,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "cheap",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "high_reasoning",
-    "planning_role": "fallback",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "fallback",
-    "production_role": "fallback",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "moonshotai/kimi-k2",
     "name": "MoonshotAI: Kimi K2 0711",
     "family": "kimi",
@@ -10209,7 +10250,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-3.5-turbo-0613",
     "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
     "family": "gpt",
@@ -10250,7 +10291,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-audio-mini",
     "name": "OpenAI: GPT Audio Mini",
     "family": "gpt",
@@ -10291,7 +10332,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "moonshotai/kimi-k2-0905",
     "name": "MoonshotAI: Kimi K2 0905",
     "family": "kimi",
@@ -10332,7 +10373,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3-flash-preview",
     "name": "Google: Gemini 3 Flash Preview",
     "family": "gemini",
@@ -10373,7 +10414,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.1-flash-image",
     "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
     "family": "gemini",
@@ -10414,7 +10455,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.1-flash-image-preview",
     "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
     "family": "gemini",
@@ -10455,7 +10496,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-3.5-turbo-instruct",
     "name": "OpenAI: GPT-3.5 Turbo Instruct",
     "family": "gpt",
@@ -10496,7 +10537,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-5",
     "name": "Z.ai: GLM 5",
     "family": "glm",
@@ -10537,7 +10578,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "kwaipilot/kat-coder-pro-v2.5",
     "name": "Kwaipilot: KAT-Coder-Pro V2.5",
     "family": "unknown",
@@ -10578,7 +10619,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "x-ai/grok-4.20",
     "name": "xAI: Grok 4.20",
     "family": "unknown",
@@ -10619,7 +10660,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "x-ai/grok-4.20-multi-agent",
     "name": "xAI: Grok 4.20 Multi-Agent",
     "family": "unknown",
@@ -10660,7 +10701,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-coder-plus",
     "name": "Qwen: Qwen3 Coder Plus",
     "family": "qwen",
@@ -10701,7 +10742,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "amazon/nova-pro-v1",
     "name": "Amazon: Nova Pro 1.0",
     "family": "unknown",
@@ -10742,7 +10783,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "nousresearch/hermes-4-405b",
     "name": "Nous: Hermes 4 405B",
     "family": "unknown",
@@ -10783,7 +10824,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "relace/relace-search",
     "name": "Relace: Relace Search",
     "family": "unknown",
@@ -10824,7 +10865,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5-image-mini",
     "name": "OpenAI: GPT-5 Image Mini",
     "family": "gpt",
@@ -10865,13 +10906,13 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-max",
     "name": "Qwen: Qwen3 Max",
     "family": "qwen",
     "is_free": "false",
     "context_length": 262144,
-    "max_completion_tokens": 32768,
+    "max_completion_tokens": 65536,
     "input_modalities": "text",
     "output_modalities": "text",
     "supports_tools": "true",
@@ -10906,13 +10947,13 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3-max-thinking",
     "name": "Qwen: Qwen3 Max Thinking",
     "family": "qwen",
     "is_free": "false",
     "context_length": 262144,
-    "max_completion_tokens": 32768,
+    "max_completion_tokens": 65536,
     "input_modalities": "text",
     "output_modalities": "text",
     "supports_tools": "true",
@@ -10947,7 +10988,48 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
+    "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+    "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+    "family": "qwen",
+    "is_free": "false",
+    "context_length": 131072,
+    "max_completion_tokens": 32768,
+    "input_modalities": "text|image",
+    "output_modalities": "text",
+    "supports_tools": "true",
+    "supports_structured_output": "true",
+    "supports_reasoning": "true",
+    "pricing_prompt_per_mtok": 0.98,
+    "pricing_completion_per_mtok": 3.95,
+    "price_doc_per_mtok": 1.4255,
+    "price_code_per_mtok": 2.3165,
+    "price_review_per_mtok": 1.277,
+    "price_agent_per_mtok": 2.465,
+    "weekly_rank": "",
+    "weekly_tokens": 0,
+    "intelligence_index": 0.0,
+    "coding_index": 0.0,
+    "agentic_index": 0.0,
+    "task_tags": "long_context|reasoning|structured_output|tools",
+    "strength_tags": "reasoning|structured_output|tool_use",
+    "weakness_tags": "",
+    "coding_role": "fallback",
+    "documentation_role": "fallback",
+    "testing_role": "fallback",
+    "frontend_role": "fallback",
+    "backend_role": "fallback",
+    "architecture_role": "high_reasoning",
+    "planning_role": "fallback",
+    "reasoning_role": "high_reasoning",
+    "local_dev_role": "fallback",
+    "production_role": "fallback",
+    "trust_tier": "paid",
+    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
+    "source_urls": "https://openrouter.ai/api/v1/models"
+  },
+  {
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-5-turbo",
     "name": "Z.ai: GLM 5 Turbo",
     "family": "glm",
@@ -10988,7 +11070,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "z-ai/glm-5v-turbo",
     "name": "Z.ai: GLM 5V Turbo",
     "family": "glm",
@@ -11029,7 +11111,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "~openai/gpt-mini-latest",
     "name": "OpenAI GPT Mini Latest",
     "family": "gpt",
@@ -11070,7 +11152,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/o3-mini",
     "name": "OpenAI: o3 Mini",
     "family": "gpt",
@@ -11111,7 +11193,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/o4-mini",
     "name": "OpenAI: o4 Mini",
     "family": "gpt",
@@ -11152,7 +11234,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/o4-mini-high",
     "name": "OpenAI: o4 Mini High",
     "family": "gpt",
@@ -11193,7 +11275,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "~anthropic/claude-haiku-latest",
     "name": "Anthropic Claude Haiku Latest",
     "family": "claude",
@@ -11234,7 +11316,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "writer/palmyra-x5",
     "name": "Writer: Palmyra X5",
     "family": "unknown",
@@ -11275,7 +11357,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-3.5-turbo-16k",
     "name": "OpenAI: GPT-3.5 Turbo 16k",
     "family": "gpt",
@@ -11316,9 +11398,9 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "openai/gpt-5.6-luna-pro",
-    "name": "OpenAI: GPT-5.6 Luna Pro",
+    "snapshot_date": "2026-08-03",
+    "model_id": "openai/gpt-5.6-terra-pro",
+    "name": "OpenAI: GPT-5.6 Terra Pro",
     "family": "gpt",
     "is_free": "false",
     "context_length": 1050000,
@@ -11357,7 +11439,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "qwen/qwen3.6-max-preview",
     "name": "Qwen: Qwen3.6 Max Preview",
     "family": "qwen",
@@ -11369,12 +11451,12 @@
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 1.04,
-    "pricing_completion_per_mtok": 6.24,
-    "price_doc_per_mtok": 1.82,
-    "price_code_per_mtok": 3.38,
-    "price_review_per_mtok": 1.56,
-    "price_agent_per_mtok": 3.64,
+    "pricing_prompt_per_mtok": 1.027,
+    "pricing_completion_per_mtok": 6.162,
+    "price_doc_per_mtok": 1.79725,
+    "price_code_per_mtok": 3.33775,
+    "price_review_per_mtok": 1.5405,
+    "price_agent_per_mtok": 3.5945,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 0.0,
@@ -11398,7 +11480,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthracite-org/magnum-v4-72b",
     "name": "Magnum v4 72B",
     "family": "unknown",
@@ -11439,7 +11521,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-large",
     "name": "Mistral Large",
     "family": "unknown",
@@ -11480,7 +11562,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mistral-large-2407",
     "name": "Mistral Large 2407",
     "family": "unknown",
@@ -11521,7 +11603,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "mistralai/mixtral-8x22b-instruct",
     "name": "Mistral: Mixtral 8x22B Instruct",
     "family": "unknown",
@@ -11562,7 +11644,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "~x-ai/grok-latest",
     "name": "xAI: Grok Latest",
     "family": "unknown",
@@ -11603,7 +11685,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "aion-labs/aion-3.0",
     "name": "AionLabs: Aion-3.0",
     "family": "unknown",
@@ -11644,7 +11726,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "~google/gemini-flash-latest",
     "name": "Google Gemini Flash Latest",
     "family": "gemini",
@@ -11685,7 +11767,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "ai21/jamba-large-1.7",
     "name": "AI21: Jamba Large 1.7",
     "family": "unknown",
@@ -11726,7 +11808,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4.1",
     "name": "OpenAI: GPT-4.1",
     "family": "gpt",
@@ -11767,7 +11849,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/o3",
     "name": "OpenAI: o3",
     "family": "gpt",
@@ -11808,48 +11890,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "openai/o4-mini-deep-research",
-    "name": "OpenAI: o4 Mini Deep Research",
-    "family": "gpt",
-    "is_free": "false",
-    "context_length": 200000,
-    "max_completion_tokens": 100000,
-    "input_modalities": "file|image|text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 2.0,
-    "pricing_completion_per_mtok": 8.0,
-    "price_doc_per_mtok": 2.9,
-    "price_code_per_mtok": 4.7,
-    "price_review_per_mtok": 2.6,
-    "price_agent_per_mtok": 5.0,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "fallback",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "high_reasoning",
-    "planning_role": "fallback",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "fallback",
-    "production_role": "fallback",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "perplexity/sonar-deep-research",
     "name": "Perplexity: Sonar Deep Research",
     "family": "unknown",
@@ -11890,7 +11931,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "perplexity/sonar-reasoning-pro",
     "name": "Perplexity: Sonar Reasoning Pro",
     "family": "unknown",
@@ -11931,7 +11972,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-2.5-pro-preview",
     "name": "Google: Gemini 2.5 Pro Preview 06-05",
     "family": "gemini",
@@ -11972,7 +12013,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-2.5-pro-preview-05-06",
     "name": "Google: Gemini 2.5 Pro Preview 05-06",
     "family": "gemini",
@@ -12013,130 +12054,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "openai/gpt-5-chat",
-    "name": "OpenAI: GPT-5 Chat",
-    "family": "gpt",
-    "is_free": "false",
-    "context_length": 128000,
-    "max_completion_tokens": 16384,
-    "input_modalities": "file|image|text",
-    "output_modalities": "text",
-    "supports_tools": "false",
-    "supports_structured_output": "true",
-    "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 1.25,
-    "pricing_completion_per_mtok": 10.0,
-    "price_doc_per_mtok": 2.5625,
-    "price_code_per_mtok": 5.1875,
-    "price_review_per_mtok": 2.125,
-    "price_agent_per_mtok": 5.625,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "long_context|structured_output",
-    "strength_tags": "structured_output",
-    "weakness_tags": "no_tool_support_detected",
-    "coding_role": "unknown",
-    "documentation_role": "unknown",
-    "testing_role": "unknown",
-    "frontend_role": "unknown",
-    "backend_role": "unknown",
-    "architecture_role": "unknown",
-    "planning_role": "unknown",
-    "reasoning_role": "unknown",
-    "local_dev_role": "unknown",
-    "production_role": "unknown",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
-    "model_id": "openai/gpt-5-codex",
-    "name": "OpenAI: GPT-5 Codex",
-    "family": "gpt",
-    "is_free": "false",
-    "context_length": 400000,
-    "max_completion_tokens": 128000,
-    "input_modalities": "text|image",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 1.25,
-    "pricing_completion_per_mtok": 10.0,
-    "price_doc_per_mtok": 2.5625,
-    "price_code_per_mtok": 5.1875,
-    "price_review_per_mtok": 2.125,
-    "price_agent_per_mtok": 5.625,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "coding|long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "fallback",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "high_reasoning",
-    "planning_role": "fallback",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "fallback",
-    "production_role": "fallback",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
-    "model_id": "openai/gpt-5.1-chat",
-    "name": "OpenAI: GPT-5.1 Chat",
-    "family": "gpt",
-    "is_free": "false",
-    "context_length": 128000,
-    "max_completion_tokens": 16384,
-    "input_modalities": "file|image|text",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 1.25,
-    "pricing_completion_per_mtok": 10.0,
-    "price_doc_per_mtok": 2.5625,
-    "price_code_per_mtok": 5.1875,
-    "price_review_per_mtok": 2.125,
-    "price_agent_per_mtok": 5.625,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "long_context|reasoning|structured_output|tools",
-    "strength_tags": "structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "unknown",
-    "documentation_role": "unknown",
-    "testing_role": "unknown",
-    "frontend_role": "unknown",
-    "backend_role": "unknown",
-    "architecture_role": "unknown",
-    "planning_role": "unknown",
-    "reasoning_role": "unknown",
-    "local_dev_role": "unknown",
-    "production_role": "unknown",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.1-codex",
     "name": "OpenAI: GPT-5.1-Codex",
     "family": "gpt",
@@ -12177,7 +12095,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.1-codex-max",
     "name": "OpenAI: GPT-5.1-Codex-Max",
     "family": "gpt",
@@ -12218,7 +12136,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "~anthropic/claude-sonnet-latest",
     "name": "Anthropic Claude Sonnet Latest",
     "family": "claude",
@@ -12259,7 +12177,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "cohere/command-r-plus-08-2024",
     "name": "Cohere: Command R+ (08-2024)",
     "family": "cohere",
@@ -12300,7 +12218,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4o",
     "name": "OpenAI: GPT-4o",
     "family": "gpt",
@@ -12341,7 +12259,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4o-2024-08-06",
     "name": "OpenAI: GPT-4o (2024-08-06)",
     "family": "gpt",
@@ -12382,7 +12300,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4o-2024-11-20",
     "name": "OpenAI: GPT-4o (2024-11-20)",
     "family": "gpt",
@@ -12423,48 +12341,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "openai/gpt-4o-search-preview",
-    "name": "OpenAI: GPT-4o Search Preview",
-    "family": "gpt",
-    "is_free": "false",
-    "context_length": 128000,
-    "max_completion_tokens": 16384,
-    "input_modalities": "text",
-    "output_modalities": "text",
-    "supports_tools": "false",
-    "supports_structured_output": "true",
-    "supports_reasoning": "false",
-    "pricing_prompt_per_mtok": 2.5,
-    "pricing_completion_per_mtok": 10.0,
-    "price_doc_per_mtok": 3.625,
-    "price_code_per_mtok": 5.875,
-    "price_review_per_mtok": 3.25,
-    "price_agent_per_mtok": 6.25,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "long_context|structured_output",
-    "strength_tags": "structured_output",
-    "weakness_tags": "no_tool_support_detected",
-    "coding_role": "unknown",
-    "documentation_role": "unknown",
-    "testing_role": "unknown",
-    "frontend_role": "unknown",
-    "backend_role": "unknown",
-    "architecture_role": "unknown",
-    "planning_role": "unknown",
-    "reasoning_role": "unknown",
-    "local_dev_role": "unknown",
-    "production_role": "unknown",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-audio",
     "name": "OpenAI: GPT Audio",
     "family": "gpt",
@@ -12505,7 +12382,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3-pro-image",
     "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
     "family": "gemini",
@@ -12546,7 +12423,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3-pro-image-preview",
     "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
     "family": "gemini",
@@ -12587,7 +12464,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "google/gemini-3.1-pro-preview-customtools",
     "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
     "family": "gemini",
@@ -12628,7 +12505,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "~google/gemini-pro-latest",
     "name": "Google Gemini Pro Latest",
     "family": "gemini",
@@ -12669,7 +12546,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "amazon/nova-premier-v1",
     "name": "Amazon: Nova Premier 1.0",
     "family": "unknown",
@@ -12710,7 +12587,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.2",
     "name": "OpenAI: GPT-5.2",
     "family": "gpt",
@@ -12751,7 +12628,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.2-chat",
     "name": "OpenAI: GPT-5.2 Chat",
     "family": "gpt",
@@ -12792,7 +12669,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.2-codex",
     "name": "OpenAI: GPT-5.2-Codex",
     "family": "gpt",
@@ -12833,7 +12710,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.3-chat",
     "name": "OpenAI: GPT-5.3 Chat",
     "family": "gpt",
@@ -12874,7 +12751,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.3-codex",
     "name": "OpenAI: GPT-5.3-Codex",
     "family": "gpt",
@@ -12915,24 +12792,24 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "openai/gpt-5.6-terra-pro",
-    "name": "OpenAI: GPT-5.6 Terra Pro",
-    "family": "gpt",
+    "snapshot_date": "2026-08-03",
+    "model_id": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI Kimi Latest",
+    "family": "kimi",
     "is_free": "false",
-    "context_length": 1050000,
-    "max_completion_tokens": 128000,
-    "input_modalities": "file|image|text",
+    "context_length": 1048576,
+    "max_completion_tokens": 1048576,
+    "input_modalities": "text|image",
     "output_modalities": "text",
     "supports_tools": "true",
     "supports_structured_output": "true",
     "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 2.5,
-    "pricing_completion_per_mtok": 15.0,
-    "price_doc_per_mtok": 4.375,
-    "price_code_per_mtok": 8.125,
-    "price_review_per_mtok": 3.75,
-    "price_agent_per_mtok": 8.75,
+    "pricing_prompt_per_mtok": 2.9,
+    "pricing_completion_per_mtok": 14.0,
+    "price_doc_per_mtok": 4.565,
+    "price_code_per_mtok": 7.895,
+    "price_review_per_mtok": 4.01,
+    "price_agent_per_mtok": 8.45,
     "weekly_rank": "",
     "weekly_tokens": 0,
     "intelligence_index": 0.0,
@@ -12956,7 +12833,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "perplexity/sonar-pro",
     "name": "Perplexity: Sonar Pro",
     "family": "unknown",
@@ -12997,7 +12874,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "perplexity/sonar-pro-search",
     "name": "Perplexity: Sonar Pro Search",
     "family": "unknown",
@@ -13038,48 +12915,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "~moonshotai/kimi-latest",
-    "name": "MoonshotAI Kimi Latest",
-    "family": "kimi",
-    "is_free": "false",
-    "context_length": 1048576,
-    "max_completion_tokens": 0,
-    "input_modalities": "text|image",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 3.0,
-    "pricing_completion_per_mtok": 15.0,
-    "price_doc_per_mtok": 4.8,
-    "price_code_per_mtok": 8.4,
-    "price_review_per_mtok": 4.2,
-    "price_agent_per_mtok": 9.0,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use|very_long_context",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "fallback",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "high_reasoning",
-    "planning_role": "fallback",
-    "reasoning_role": "high_reasoning",
-    "local_dev_role": "fallback",
-    "production_role": "fallback",
-    "trust_tier": "paid",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5-image",
     "name": "OpenAI: GPT-5 Image",
     "family": "gpt",
@@ -13120,7 +12956,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.4-image-2",
     "name": "OpenAI: GPT-5.4 Image 2",
     "family": "gpt",
@@ -13161,7 +12997,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-4.5",
     "name": "Anthropic: Claude Opus 4.5",
     "family": "claude",
@@ -13202,7 +13038,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-4.6",
     "name": "Anthropic: Claude Opus 4.6",
     "family": "claude",
@@ -13243,7 +13079,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "~anthropic/claude-opus-latest",
     "name": "Anthropic: Claude Opus Latest",
     "family": "claude",
@@ -13284,7 +13120,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.6-sol-pro",
     "name": "OpenAI: GPT-5.6 Sol Pro",
     "family": "gpt",
@@ -13325,7 +13161,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-chat-latest",
     "name": "OpenAI: GPT Chat Latest",
     "family": "gpt",
@@ -13366,7 +13202,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "sakana/fugu-ultra",
     "name": "Sakana: Fugu Ultra",
     "family": "unknown",
@@ -13407,7 +13243,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "~openai/gpt-latest",
     "name": "OpenAI GPT Latest",
     "family": "gpt",
@@ -13448,7 +13284,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-4-turbo-preview",
     "name": "OpenAI: GPT-4 Turbo Preview",
     "family": "gpt",
@@ -13489,48 +13325,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
-    "model_id": "openai/o3-deep-research",
-    "name": "OpenAI: o3 Deep Research",
-    "family": "gpt",
-    "is_free": "false",
-    "context_length": 200000,
-    "max_completion_tokens": 100000,
-    "input_modalities": "image|text|file",
-    "output_modalities": "text",
-    "supports_tools": "true",
-    "supports_structured_output": "true",
-    "supports_reasoning": "true",
-    "pricing_prompt_per_mtok": 10.0,
-    "pricing_completion_per_mtok": 40.0,
-    "price_doc_per_mtok": 14.5,
-    "price_code_per_mtok": 23.5,
-    "price_review_per_mtok": 13.0,
-    "price_agent_per_mtok": 25.0,
-    "weekly_rank": "",
-    "weekly_tokens": 0,
-    "intelligence_index": 0.0,
-    "coding_index": 0.0,
-    "agentic_index": 0.0,
-    "task_tags": "long_context|reasoning|structured_output|tools",
-    "strength_tags": "reasoning|structured_output|tool_use",
-    "weakness_tags": "",
-    "coding_role": "fallback",
-    "documentation_role": "fallback",
-    "testing_role": "fallback",
-    "frontend_role": "fallback",
-    "backend_role": "fallback",
-    "architecture_role": "fallback",
-    "planning_role": "fallback",
-    "reasoning_role": "fallback",
-    "local_dev_role": "fallback",
-    "production_role": "fallback",
-    "trust_tier": "premium",
-    "routing_notes": "bootstrap metadata-only; promote after live snapshot and evals",
-    "source_urls": "https://openrouter.ai/api/v1/models"
-  },
-  {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-4.8-fast",
     "name": "Anthropic: Claude Opus 4.8 (Fast)",
     "family": "claude",
@@ -13571,7 +13366,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-5-fast",
     "name": "Claude Opus 5 (Fast)",
     "family": "claude",
@@ -13612,7 +13407,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "~anthropic/claude-fable-latest",
     "name": "Anthropic: Claude Fable Latest",
     "family": "claude",
@@ -13653,7 +13448,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-4",
     "name": "Anthropic: Claude Opus 4",
     "family": "claude",
@@ -13694,7 +13489,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-4.1",
     "name": "Anthropic: Claude Opus 4.1",
     "family": "claude",
@@ -13735,7 +13530,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/o3-pro",
     "name": "OpenAI: o3 Pro",
     "family": "gpt",
@@ -13776,7 +13571,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5-pro",
     "name": "OpenAI: GPT-5 Pro",
     "family": "gpt",
@@ -13817,7 +13612,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "anthropic/claude-opus-4.7-fast",
     "name": "Anthropic: Claude Opus 4.7 (Fast)",
     "family": "claude",
@@ -13858,7 +13653,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.2-pro",
     "name": "OpenAI: GPT-5.2 Pro",
     "family": "gpt",
@@ -13899,7 +13694,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.4-pro",
     "name": "OpenAI: GPT-5.4 Pro",
     "family": "gpt",
@@ -13940,7 +13735,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/gpt-5.5-pro",
     "name": "OpenAI: GPT-5.5 Pro",
     "family": "gpt",
@@ -13981,7 +13776,7 @@
     "source_urls": "https://openrouter.ai/api/v1/models"
   },
   {
-    "snapshot_date": "2026-07-27",
+    "snapshot_date": "2026-08-03",
     "model_id": "openai/o1-pro",
     "name": "OpenAI: o1-pro",
     "family": "gpt",
