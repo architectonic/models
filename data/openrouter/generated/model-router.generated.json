@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-08-10T10:36:38.728966+00:00",
+  "generated_at": "2026-08-17T09:57:54.242919+00:00",
   "buckets": {
     "coding": {
       "primary": [
@@ -8,21 +8,21 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "high_reasoning": [],
       "cheap": [
+        "z-ai/glm-5.2:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "nvidia/nemotron-3-super-120b-a12b:free",
         "cohere/north-mini-code:free",
-        "openai/gpt-oss-20b:free",
-        "nvidia/nemotron-3-nano-30b-a3b:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3.5-lightning:free",
+        "openai/gpt-oss-20b:free"
       ],
       "free": [],
       "fallback": [
@@ -31,9 +31,9 @@
         "anthropic/claude-opus-4.8:batch",
         "anthropic/claude-opus-4.8",
         "qwen/qwen3.8-max",
+        "deepseek/deepseek-v4-pro-0813",
         "nex-agi/nex-n2-pro",
-        "openai/gpt-5.4-nano",
-        "qwen/qwen3.7-plus"
+        "tencent/hy3-preview"
       ],
       "candidate": [],
       "unknown": [
@@ -54,21 +54,21 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "high_reasoning": [],
       "cheap": [
+        "google/gemini-3.7-flash:batch",
+        "google/gemini-3.7-flash",
         "openai/gpt-5.6-luna",
         "openai/gpt-5.6-luna:batch",
+        "google/gemini-3.6-flash:batch",
         "deepseek/deepseek-v4-flash-0731",
-        "moonshotai/kimi-k2.7-code:batch",
-        "xiaomi/mimo-v2.5-pro",
-        "kwaipilot/kat-coder-pro-v2",
-        "deepseek/deepseek-v4-pro",
-        "nex-agi/nex-n2-pro"
+        "z-ai/glm-5.2:free",
+        "moonshotai/kimi-k2.7-code:batch"
       ],
       "free": [],
       "fallback": [
@@ -89,8 +89,8 @@
         "openai/gpt-4-turbo",
         "openai/gpt-4",
         "sao10k/l3.1-euryale-70b",
-        "arcee-ai/virtuoso-large",
-        "morph/morph-v3-fast"
+        "qwen/qwen2.5-vl-72b-instruct",
+        "arcee-ai/virtuoso-large"
       ],
       "avoid": []
     },
@@ -100,21 +100,21 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "high_reasoning": [],
       "cheap": [
+        "z-ai/glm-5.2:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "nvidia/nemotron-3-super-120b-a12b:free",
         "cohere/north-mini-code:free",
-        "openai/gpt-oss-20b:free",
-        "nvidia/nemotron-3-nano-30b-a3b:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3.5-lightning:free",
+        "openai/gpt-oss-20b:free"
       ],
       "free": [],
       "fallback": [
@@ -123,9 +123,9 @@
         "anthropic/claude-opus-4.8:batch",
         "anthropic/claude-opus-4.8",
         "qwen/qwen3.8-max",
+        "deepseek/deepseek-v4-pro-0813",
         "nex-agi/nex-n2-pro",
-        "openai/gpt-5.4-nano",
-        "qwen/qwen3.7-plus"
+        "tencent/hy3-preview"
       ],
       "candidate": [],
       "unknown": [
@@ -146,21 +146,21 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "high_reasoning": [],
       "cheap": [
+        "z-ai/glm-5.2:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "nvidia/nemotron-3-super-120b-a12b:free",
         "cohere/north-mini-code:free",
-        "openai/gpt-oss-20b:free",
-        "nvidia/nemotron-3-nano-30b-a3b:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3.5-lightning:free",
+        "openai/gpt-oss-20b:free"
       ],
       "free": [],
       "fallback": [
@@ -169,9 +169,9 @@
         "anthropic/claude-opus-4.8:batch",
         "anthropic/claude-opus-4.8",
         "qwen/qwen3.8-max",
+        "deepseek/deepseek-v4-pro-0813",
         "nex-agi/nex-n2-pro",
-        "openai/gpt-5.4-nano",
-        "qwen/qwen3.7-plus"
+        "tencent/hy3-preview"
       ],
       "candidate": [],
       "unknown": [
@@ -192,21 +192,21 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "high_reasoning": [],
       "cheap": [
+        "z-ai/glm-5.2:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "nvidia/nemotron-3-super-120b-a12b:free",
         "cohere/north-mini-code:free",
-        "openai/gpt-oss-20b:free",
-        "nvidia/nemotron-3-nano-30b-a3b:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3.5-lightning:free",
+        "openai/gpt-oss-20b:free"
       ],
       "free": [],
       "fallback": [
@@ -215,9 +215,9 @@
         "anthropic/claude-opus-4.8:batch",
         "anthropic/claude-opus-4.8",
         "qwen/qwen3.8-max",
+        "deepseek/deepseek-v4-pro-0813",
         "nex-agi/nex-n2-pro",
-        "openai/gpt-5.4-nano",
-        "qwen/qwen3.7-plus"
+        "tencent/hy3-preview"
       ],
       "candidate": [],
       "unknown": [
@@ -239,10 +239,10 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "cheap": [
         "openai/gpt-4o-mini",
@@ -256,14 +256,14 @@
       ],
       "free": [],
       "fallback": [
+        "z-ai/glm-5.2:free",
         "kwaipilot/kat-coder-pro-v2",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "openai/o1:batch",
         "openai/o1",
         "google/gemma-4-26b-a4b-it:free",
-        "openai/gpt-5",
-        "nvidia/nemotron-3-super-120b-a12b:free"
+        "openai/gpt-5"
       ],
       "candidate": [],
       "unknown": [
@@ -287,10 +287,10 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -305,14 +305,14 @@
       ],
       "free": [],
       "fallback": [
+        "z-ai/glm-5.2:free",
         "kwaipilot/kat-coder-pro-v2",
         "anthropic/claude-sonnet-4.5:batch",
         "anthropic/claude-sonnet-4.5",
         "openai/gpt-5.1:batch",
         "openai/gpt-5.1",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
-        "nvidia/nemotron-3-ultra-550b-a55b",
-        "mistralai/mistral-medium-3-5"
+        "nvidia/nemotron-3-ultra-550b-a55b"
       ],
       "candidate": [],
       "unknown": [
@@ -337,10 +337,10 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "cheap": [
         "openai/gpt-4o-mini",
@@ -354,14 +354,14 @@
       ],
       "free": [],
       "fallback": [
+        "z-ai/glm-5.2:free",
         "kwaipilot/kat-coder-pro-v2",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "openai/o1:batch",
         "openai/o1",
         "google/gemma-4-26b-a4b-it:free",
-        "openai/gpt-5",
-        "nvidia/nemotron-3-super-120b-a12b:free"
+        "openai/gpt-5"
       ],
       "candidate": [],
       "unknown": [
@@ -385,10 +385,10 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -402,14 +402,14 @@
         "sao10k/l3-lunaris-8b"
       ],
       "free": [
+        "z-ai/glm-5.2:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "nvidia/nemotron-3-super-120b-a12b:free",
         "cohere/north-mini-code:free",
-        "openai/gpt-oss-20b:free",
-        "nvidia/nemotron-3-nano-30b-a3b:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3.5-lightning:free",
+        "openai/gpt-oss-20b:free"
       ],
       "fallback": [
         "kwaipilot/kat-coder-pro-v2",
@@ -440,10 +440,10 @@
         "anthropic/claude-opus-5",
         "openai/gpt-5.6-sol:batch",
         "openai/gpt-5.6-sol",
+        "x-ai/grok-4.6",
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra:batch",
-        "anthropic/claude-fable-5:batch",
-        "anthropic/claude-fable-5"
+        "anthropic/claude-fable-5:batch"
       ],
       "high_reasoning": [],
       "cheap": [
@@ -479,14 +479,14 @@
         "openai/gpt-3.5-turbo"
       ],
       "avoid": [
+        "z-ai/glm-5.2:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "nvidia/nemotron-3-super-120b-a12b:free",
         "cohere/north-mini-code:free",
-        "openai/gpt-oss-20b:free",
-        "nvidia/nemotron-3-nano-30b-a3b:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3.5-lightning:free",
+        "openai/gpt-oss-20b:free"
       ]
     }
   }
