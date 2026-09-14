@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-09-07T15:03:41.354768+00:00",
+  "generated_at": "2026-09-14T15:53:39.917905+00:00",
   "buckets": {
     "coding": {
       "primary": [
@@ -15,14 +15,14 @@
       ],
       "high_reasoning": [],
       "cheap": [
-        "minimax/minimax-m3:free",
+        "inclusionai/ling-3.0-flash-vl:free",
         "thinkingmachines/inkling-small:free",
-        "minimax/minimax-m2.7:free",
         "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
-        "nvidia/nemotron-3-super-120b-a12b:free"
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free"
       ],
       "free": [],
       "fallback": [
@@ -33,7 +33,7 @@
         "qwen/qwen3.8-2.4t-a95b",
         "qwen/qwen3.8-2.4t-a95b:batch",
         "qwen/qwen3.8-max-0902",
-        "deepseek/deepseek-v4-pro-0813:batch"
+        "tencent/hy3-preview"
       ],
       "candidate": [],
       "unknown": [
@@ -63,8 +63,8 @@
       "cheap": [
         "google/gemini-3.8-flash:batch",
         "google/gemini-3.7-flash:batch",
-        "z-ai/glm-5.3-flash",
         "z-ai/glm-5.3-flash:batch",
+        "z-ai/glm-5.3-flash",
         "openai/gpt-5.6-luna:batch",
         "openai/gpt-5.6-luna",
         "google/gemini-3.6-flash:batch",
@@ -107,14 +107,14 @@
       ],
       "high_reasoning": [],
       "cheap": [
-        "minimax/minimax-m3:free",
+        "inclusionai/ling-3.0-flash-vl:free",
         "thinkingmachines/inkling-small:free",
-        "minimax/minimax-m2.7:free",
         "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
-        "nvidia/nemotron-3-super-120b-a12b:free"
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free"
       ],
       "free": [],
       "fallback": [
@@ -125,7 +125,7 @@
         "qwen/qwen3.8-2.4t-a95b",
         "qwen/qwen3.8-2.4t-a95b:batch",
         "qwen/qwen3.8-max-0902",
-        "deepseek/deepseek-v4-pro-0813:batch"
+        "tencent/hy3-preview"
       ],
       "candidate": [],
       "unknown": [
@@ -153,14 +153,14 @@
       ],
       "high_reasoning": [],
       "cheap": [
-        "minimax/minimax-m3:free",
+        "inclusionai/ling-3.0-flash-vl:free",
         "thinkingmachines/inkling-small:free",
-        "minimax/minimax-m2.7:free",
         "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
-        "nvidia/nemotron-3-super-120b-a12b:free"
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free"
       ],
       "free": [],
       "fallback": [
@@ -171,7 +171,7 @@
         "qwen/qwen3.8-2.4t-a95b",
         "qwen/qwen3.8-2.4t-a95b:batch",
         "qwen/qwen3.8-max-0902",
-        "deepseek/deepseek-v4-pro-0813:batch"
+        "tencent/hy3-preview"
       ],
       "candidate": [],
       "unknown": [
@@ -199,14 +199,14 @@
       ],
       "high_reasoning": [],
       "cheap": [
-        "minimax/minimax-m3:free",
+        "inclusionai/ling-3.0-flash-vl:free",
         "thinkingmachines/inkling-small:free",
-        "minimax/minimax-m2.7:free",
         "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
-        "nvidia/nemotron-3-super-120b-a12b:free"
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free"
       ],
       "free": [],
       "fallback": [
@@ -217,7 +217,7 @@
         "qwen/qwen3.8-2.4t-a95b",
         "qwen/qwen3.8-2.4t-a95b:batch",
         "qwen/qwen3.8-max-0902",
-        "deepseek/deepseek-v4-pro-0813:batch"
+        "tencent/hy3-preview"
       ],
       "candidate": [],
       "unknown": [
@@ -257,13 +257,13 @@
       "free": [],
       "fallback": [
         "kwaipilot/kat-coder-pro-v2",
-        "minimax/minimax-m3:free",
+        "inclusionai/ling-3.0-flash-vl:free",
         "thinkingmachines/inkling-small:free",
-        "minimax/minimax-m2.7:free",
         "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
-        "openai/o1"
+        "openai/o1",
+        "google/gemma-4-26b-a4b-it:free"
       ],
       "candidate": [],
       "unknown": [
@@ -306,13 +306,13 @@
       "free": [],
       "fallback": [
         "kwaipilot/kat-coder-pro-v2",
-        "minimax/minimax-m3:free",
+        "inclusionai/ling-3.0-flash-vl:free",
         "thinkingmachines/inkling-small:free",
-        "minimax/minimax-m2.7:free",
         "thinkingmachines/inkling:free",
         "anthropic/claude-sonnet-4.5:batch",
         "anthropic/claude-sonnet-4.5",
-        "openai/gpt-5.1:batch"
+        "openai/gpt-5.1:batch",
+        "openai/gpt-5.1"
       ],
       "candidate": [],
       "unknown": [
@@ -355,13 +355,13 @@
       "free": [],
       "fallback": [
         "kwaipilot/kat-coder-pro-v2",
-        "minimax/minimax-m3:free",
+        "inclusionai/ling-3.0-flash-vl:free",
         "thinkingmachines/inkling-small:free",
-        "minimax/minimax-m2.7:free",
         "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
-        "openai/o1"
+        "openai/o1",
+        "google/gemma-4-26b-a4b-it:free"
       ],
       "candidate": [],
       "unknown": [
@@ -402,14 +402,14 @@
         "gryphe/mythomax-l2-13b"
       ],
       "free": [
-        "minimax/minimax-m3:free",
+        "inclusionai/ling-3.0-flash-vl:free",
         "thinkingmachines/inkling-small:free",
-        "minimax/minimax-m2.7:free",
         "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
-        "nvidia/nemotron-3-super-120b-a12b:free"
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free"
       ],
       "fallback": [
         "kwaipilot/kat-coder-pro-v2",
@@ -479,14 +479,14 @@
         "openai/gpt-3.5-turbo"
       ],
       "avoid": [
-        "minimax/minimax-m3:free",
+        "inclusionai/ling-3.0-flash-vl:free",
         "thinkingmachines/inkling-small:free",
-        "minimax/minimax-m2.7:free",
         "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
-        "nvidia/nemotron-3-super-120b-a12b:free"
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "cohere/north-mini-code:free"
       ]
     }
   }
