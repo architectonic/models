@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-10-12T19:04:18.094992+00:00",
+  "generated_at": "2026-10-19T16:28:37.346387+00:00",
   "buckets": {
     "coding": {
       "primary": [
@@ -33,7 +33,7 @@
         "qwen/qwen3.8-2.4t-a95b",
         "tencent/hy3-preview",
         "openai/gpt-5.4-nano",
-        "qwen/qwen3.7-plus"
+        "qwen/qwen3.7-plus:batch"
       ],
       "candidate": [],
       "unknown": [
@@ -62,13 +62,13 @@
       "high_reasoning": [],
       "cheap": [
         "google/gemini-3.8-flash:batch",
+        "z-ai/glm-5.3",
         "z-ai/glm-5.3:batch",
         "z-ai/glm-5.3-flash:batch",
         "z-ai/glm-5.3-flash",
         "google/gemini-3.7-flash:batch",
         "openai/gpt-5.6-luna:batch",
-        "openai/gpt-5.6-luna",
-        "google/gemini-3.6-flash:batch"
+        "openai/gpt-5.6-luna"
       ],
       "free": [],
       "fallback": [
@@ -76,10 +76,10 @@
         "openai/gpt-5.1",
         "mistralai/mistral-medium-3-5:batch",
         "mistralai/mistral-medium-3-5",
-        "z-ai/glm-4.7",
         "anthropic/claude-haiku-4.5:batch",
         "anthropic/claude-haiku-4.5",
-        "x-ai/grok-4.3:batch"
+        "x-ai/grok-4.3:batch",
+        "x-ai/grok-4.3"
       ],
       "candidate": [],
       "unknown": [
@@ -125,7 +125,7 @@
         "qwen/qwen3.8-2.4t-a95b",
         "tencent/hy3-preview",
         "openai/gpt-5.4-nano",
-        "qwen/qwen3.7-plus"
+        "qwen/qwen3.7-plus:batch"
       ],
       "candidate": [],
       "unknown": [
@@ -171,7 +171,7 @@
         "qwen/qwen3.8-2.4t-a95b",
         "tencent/hy3-preview",
         "openai/gpt-5.4-nano",
-        "qwen/qwen3.7-plus"
+        "qwen/qwen3.7-plus:batch"
       ],
       "candidate": [],
       "unknown": [
@@ -217,7 +217,7 @@
         "qwen/qwen3.8-2.4t-a95b",
         "tencent/hy3-preview",
         "openai/gpt-5.4-nano",
-        "qwen/qwen3.7-plus"
+        "qwen/qwen3.7-plus:batch"
       ],
       "candidate": [],
       "unknown": [
@@ -246,11 +246,11 @@
       ],
       "cheap": [
         "openai/gpt-4o-mini",
-        "meta-llama/llama-4-scout",
         "nvidia/switchyard",
         "openrouter/bodybuilder",
         "openrouter/fusion",
-        "openrouter/pareto-code",
+        "scaledown/extract",
+        "scaledown/summarize",
         "mistralai/mistral-nemo",
         "sao10k/l3-lunaris-8b"
       ],
@@ -299,10 +299,10 @@
         "nvidia/switchyard",
         "openrouter/bodybuilder",
         "openrouter/fusion",
-        "openrouter/pareto-code",
+        "scaledown/extract",
+        "scaledown/summarize",
         "mistralai/mistral-nemo",
-        "sao10k/l3-lunaris-8b",
-        "ibm-granite/granite-4.0-h-micro"
+        "sao10k/l3-lunaris-8b"
       ],
       "free": [],
       "fallback": [
@@ -346,11 +346,11 @@
       ],
       "cheap": [
         "openai/gpt-4o-mini",
-        "meta-llama/llama-4-scout",
         "nvidia/switchyard",
         "openrouter/bodybuilder",
         "openrouter/fusion",
-        "openrouter/pareto-code",
+        "scaledown/extract",
+        "scaledown/summarize",
         "mistralai/mistral-nemo",
         "sao10k/l3-lunaris-8b"
       ],
@@ -396,11 +396,11 @@
       "high_reasoning": [],
       "cheap": [
         "openai/gpt-4o-mini",
-        "meta-llama/llama-4-scout",
         "nvidia/switchyard",
         "openrouter/bodybuilder",
         "openrouter/fusion",
-        "openrouter/pareto-code",
+        "scaledown/extract",
+        "scaledown/summarize",
         "mistralai/mistral-nemo",
         "sao10k/l3-lunaris-8b"
       ],
@@ -451,11 +451,11 @@
       "high_reasoning": [],
       "cheap": [
         "openai/gpt-4o-mini",
-        "meta-llama/llama-4-scout",
         "nvidia/switchyard",
         "openrouter/bodybuilder",
         "openrouter/fusion",
-        "openrouter/pareto-code",
+        "scaledown/extract",
+        "scaledown/summarize",
         "mistralai/mistral-nemo",
         "sao10k/l3-lunaris-8b"
       ],
