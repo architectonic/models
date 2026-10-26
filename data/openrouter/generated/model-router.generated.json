@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-10-19T16:28:37.346387+00:00",
+  "generated_at": "2026-10-26T16:08:09.342731+00:00",
   "buckets": {
     "coding": {
       "primary": [
@@ -136,7 +136,7 @@
         "openai/o3-mini-high",
         "openai/gpt-4",
         "mancer/weaver",
-        "microsoft/wizardlm-2-8x22b"
+        "google/gemma-2-27b-it"
       ],
       "avoid": []
     },
@@ -273,8 +273,8 @@
         "openai/gpt-4-turbo",
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
-        "openai/gpt-3.5-turbo:batch",
-        "openai/gpt-3.5-turbo"
+        "undi95/remm-slerp-l2-13b",
+        "qwen/qwen-plus"
       ],
       "avoid": [
         "liquid/lfm-2.5-2.6b:free",
@@ -295,14 +295,14 @@
       ],
       "high_reasoning": [],
       "cheap": [
-        "openai/gpt-3.5-turbo:batch",
         "nvidia/switchyard",
         "openrouter/bodybuilder",
         "openrouter/fusion",
         "scaledown/extract",
         "scaledown/summarize",
         "mistralai/mistral-nemo",
-        "sao10k/l3-lunaris-8b"
+        "sao10k/l3-lunaris-8b",
+        "ibm-granite/granite-4.0-h-micro"
       ],
       "free": [],
       "fallback": [
@@ -322,9 +322,9 @@
         "openai/gpt-4-turbo:batch",
         "openai/gpt-4-turbo",
         "openai/gpt-4",
-        "openai/gpt-3.5-turbo",
         "mancer/weaver",
-        "microsoft/wizardlm-2-8x22b"
+        "google/gemma-2-27b-it",
+        "thedrummer/skyfall-36b-v2"
       ],
       "avoid": [
         "liquid/lfm-2.5-2.6b:free",
@@ -373,8 +373,8 @@
         "openai/gpt-4-turbo",
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
-        "openai/gpt-3.5-turbo:batch",
-        "openai/gpt-3.5-turbo"
+        "undi95/remm-slerp-l2-13b",
+        "qwen/qwen-plus"
       ],
       "avoid": [
         "liquid/lfm-2.5-2.6b:free",
@@ -432,8 +432,8 @@
         "openai/gpt-4-turbo",
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
-        "openai/gpt-3.5-turbo:batch",
-        "openai/gpt-3.5-turbo"
+        "undi95/remm-slerp-l2-13b",
+        "qwen/qwen-plus"
       ],
       "avoid": []
     },
@@ -478,8 +478,8 @@
         "openai/gpt-4-turbo",
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
-        "openai/gpt-3.5-turbo:batch",
-        "openai/gpt-3.5-turbo"
+        "undi95/remm-slerp-l2-13b",
+        "qwen/qwen-plus"
       ],
       "avoid": [
         "thinkingmachines/inkling-small:free",
