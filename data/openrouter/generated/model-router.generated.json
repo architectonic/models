@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-11-02T19:30:03.438214+00:00",
+  "generated_at": "2026-11-09T19:50:11.348520+00:00",
   "buckets": {
     "coding": {
       "primary": [
@@ -15,14 +15,14 @@
       ],
       "high_reasoning": [],
       "cheap": [
-        "thinkingmachines/inkling-small:free",
-        "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "liquid/lfm-2.5-2.6b:free",
+        "google/gemma-3-4b-it"
       ],
       "free": [],
       "fallback": [
@@ -41,10 +41,10 @@
         "qwen/qwen3-235b-a22b-thinking-2507",
         "openai/gpt-4-turbo:batch",
         "openai/gpt-4",
+        "meta-llama/llama-3.3-70b-instruct",
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "mancer/weaver",
-        "google/gemma-2-27b-it",
-        "minimax/minimax-01"
+        "google/gemma-2-27b-it"
       ],
       "avoid": []
     },
@@ -63,10 +63,10 @@
       "cheap": [
         "google/gemini-3.8-flash:batch",
         "google/gemini-3.7-flash:batch",
-        "z-ai/glm-5.3:batch",
         "z-ai/glm-5.3",
-        "z-ai/glm-5.3-flash",
+        "z-ai/glm-5.3:batch",
         "z-ai/glm-5.3-flash:batch",
+        "z-ai/glm-5.3-flash",
         "openai/gpt-5.6-luna:batch",
         "openai/gpt-5.6-luna"
       ],
@@ -76,10 +76,10 @@
         "openai/gpt-5.1",
         "mistralai/mistral-medium-3-5:batch",
         "mistralai/mistral-medium-3-5",
+        "moonshotai/kimi-k2.5",
         "z-ai/glm-4.7",
         "anthropic/claude-haiku-4.5:batch",
-        "anthropic/claude-haiku-4.5",
-        "x-ai/grok-4.3:batch"
+        "anthropic/claude-haiku-4.5"
       ],
       "candidate": [],
       "unknown": [
@@ -107,14 +107,14 @@
       ],
       "high_reasoning": [],
       "cheap": [
-        "thinkingmachines/inkling-small:free",
-        "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "liquid/lfm-2.5-2.6b:free",
+        "google/gemma-3-4b-it"
       ],
       "free": [],
       "fallback": [
@@ -133,9 +133,9 @@
         "qwen/qwen3-235b-a22b-thinking-2507",
         "openai/gpt-4-turbo:batch",
         "openai/gpt-4",
+        "meta-llama/llama-3.3-70b-instruct",
         "mancer/weaver",
         "google/gemma-2-27b-it",
-        "minimax/minimax-01",
         "thedrummer/skyfall-36b-v2"
       ],
       "avoid": []
@@ -153,14 +153,14 @@
       ],
       "high_reasoning": [],
       "cheap": [
-        "thinkingmachines/inkling-small:free",
-        "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "liquid/lfm-2.5-2.6b:free",
+        "google/gemma-3-4b-it"
       ],
       "free": [],
       "fallback": [
@@ -179,10 +179,10 @@
         "qwen/qwen3-235b-a22b-thinking-2507",
         "openai/gpt-4-turbo:batch",
         "openai/gpt-4",
+        "meta-llama/llama-3.3-70b-instruct",
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "mancer/weaver",
-        "google/gemma-2-27b-it",
-        "minimax/minimax-01"
+        "google/gemma-2-27b-it"
       ],
       "avoid": []
     },
@@ -199,14 +199,14 @@
       ],
       "high_reasoning": [],
       "cheap": [
-        "thinkingmachines/inkling-small:free",
-        "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "liquid/lfm-2.5-2.6b:free",
+        "google/gemma-3-4b-it"
       ],
       "free": [],
       "fallback": [
@@ -225,10 +225,10 @@
         "qwen/qwen3-235b-a22b-thinking-2507",
         "openai/gpt-4-turbo:batch",
         "openai/gpt-4",
+        "meta-llama/llama-3.3-70b-instruct",
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "mancer/weaver",
-        "google/gemma-2-27b-it",
-        "minimax/minimax-01"
+        "google/gemma-2-27b-it"
       ],
       "avoid": []
     },
@@ -256,14 +256,14 @@
       ],
       "free": [],
       "fallback": [
-        "thinkingmachines/inkling-small:free",
-        "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "openai/gpt-5",
         "cohere/north-mini-code:free",
-        "qwen/qwen3-coder-next"
+        "qwen/qwen3-coder-next",
+        "google/gemini-2.5-pro",
+        "mistralai/devstral-2512"
       ],
       "candidate": [],
       "unknown": [
@@ -271,10 +271,10 @@
         "openai/gpt-4-turbo:batch",
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
+        "meta-llama/llama-3.3-70b-instruct",
+        "morph/morph-v3-fast:batch",
         "qwen/qwen3-vl-8b-instruct",
-        "undi95/remm-slerp-l2-13b",
-        "qwen/qwen-plus",
-        "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+        "undi95/remm-slerp-l2-13b"
       ],
       "avoid": [
         "liquid/lfm-2.5-2.6b:free",
@@ -306,25 +306,25 @@
       ],
       "free": [],
       "fallback": [
-        "thinkingmachines/inkling-small:free",
-        "thinkingmachines/inkling:free",
         "anthropic/claude-sonnet-4.5:batch",
         "anthropic/claude-sonnet-4.5",
         "openai/gpt-5.1:batch",
         "openai/gpt-5.1",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
-        "qwen/qwen3.5-397b-a17b"
+        "qwen/qwen3.5-397b-a17b",
+        "mistralai/mistral-medium-3-5:batch",
+        "mistralai/mistral-medium-3-5"
       ],
       "candidate": [],
       "unknown": [
         "openai/gpt-4o-2024-05-13",
         "openai/gpt-4-turbo:batch",
         "openai/gpt-4",
+        "meta-llama/llama-3.3-70b-instruct",
         "mancer/weaver",
         "google/gemma-2-27b-it",
         "qwen/qwen3-coder",
-        "thedrummer/skyfall-36b-v2",
-        "minimax/minimax-m2-her"
+        "thedrummer/skyfall-36b-v2"
       ],
       "avoid": [
         "liquid/lfm-2.5-2.6b:free",
@@ -356,14 +356,14 @@
       ],
       "free": [],
       "fallback": [
-        "thinkingmachines/inkling-small:free",
-        "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "openai/gpt-5",
         "cohere/north-mini-code:free",
-        "qwen/qwen3-coder-next"
+        "qwen/qwen3-coder-next",
+        "google/gemini-2.5-pro",
+        "mistralai/devstral-2512"
       ],
       "candidate": [],
       "unknown": [
@@ -371,10 +371,10 @@
         "openai/gpt-4-turbo:batch",
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
+        "meta-llama/llama-3.3-70b-instruct",
+        "morph/morph-v3-fast:batch",
         "qwen/qwen3-vl-8b-instruct",
-        "undi95/remm-slerp-l2-13b",
-        "qwen/qwen-plus",
-        "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+        "undi95/remm-slerp-l2-13b"
       ],
       "avoid": [
         "liquid/lfm-2.5-2.6b:free",
@@ -405,14 +405,14 @@
         "mistralai/mistral-nemo"
       ],
       "free": [
-        "thinkingmachines/inkling-small:free",
-        "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "liquid/lfm-2.5-2.6b:free",
+        "dots-studio/dots-3-note-preview:free"
       ],
       "fallback": [
         "thinkingmachines/inkling",
@@ -430,10 +430,10 @@
         "openai/gpt-4-turbo:batch",
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
+        "meta-llama/llama-3.3-70b-instruct",
+        "morph/morph-v3-fast:batch",
         "qwen/qwen3-vl-8b-instruct",
-        "undi95/remm-slerp-l2-13b",
-        "qwen/qwen-plus",
-        "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+        "undi95/remm-slerp-l2-13b"
       ],
       "avoid": []
     },
@@ -476,20 +476,20 @@
         "openai/gpt-4-turbo:batch",
         "mistralai/mistral-medium-3.1",
         "openai/gpt-4",
+        "meta-llama/llama-3.3-70b-instruct",
+        "morph/morph-v3-fast:batch",
         "qwen/qwen3-vl-8b-instruct",
-        "undi95/remm-slerp-l2-13b",
-        "qwen/qwen-plus",
-        "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+        "undi95/remm-slerp-l2-13b"
       ],
       "avoid": [
-        "thinkingmachines/inkling-small:free",
-        "thinkingmachines/inkling:free",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
-        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "liquid/lfm-2.5-2.6b:free",
+        "dots-studio/dots-3-note-preview:free"
       ]
     }
   }
