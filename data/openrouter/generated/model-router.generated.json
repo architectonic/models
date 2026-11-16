@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-11-09T19:50:11.348520+00:00",
+  "generated_at": "2026-11-16T19:37:34.638487+00:00",
   "buckets": {
     "coding": {
       "primary": [
@@ -21,8 +21,8 @@
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "liquid/lfm-2.5-2.6b:free",
-        "google/gemma-3-4b-it"
+        "google/gemma-3-4b-it",
+        "nvidia/switchyard"
       ],
       "free": [],
       "fallback": [
@@ -43,8 +43,8 @@
         "openai/gpt-4",
         "meta-llama/llama-3.3-70b-instruct",
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
-        "mancer/weaver",
-        "google/gemma-2-27b-it"
+        "google/gemma-2-27b-it",
+        "thedrummer/skyfall-36b-v2"
       ],
       "avoid": []
     },
@@ -76,10 +76,10 @@
         "openai/gpt-5.1",
         "mistralai/mistral-medium-3-5:batch",
         "mistralai/mistral-medium-3-5",
-        "moonshotai/kimi-k2.5",
-        "z-ai/glm-4.7",
         "anthropic/claude-haiku-4.5:batch",
-        "anthropic/claude-haiku-4.5"
+        "anthropic/claude-haiku-4.5",
+        "x-ai/grok-4.3:batch",
+        "x-ai/grok-4.3"
       ],
       "candidate": [],
       "unknown": [
@@ -113,8 +113,8 @@
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "liquid/lfm-2.5-2.6b:free",
-        "google/gemma-3-4b-it"
+        "google/gemma-3-4b-it",
+        "nvidia/switchyard"
       ],
       "free": [],
       "fallback": [
@@ -134,9 +134,9 @@
         "openai/gpt-4-turbo:batch",
         "openai/gpt-4",
         "meta-llama/llama-3.3-70b-instruct",
-        "mancer/weaver",
         "google/gemma-2-27b-it",
-        "thedrummer/skyfall-36b-v2"
+        "thedrummer/skyfall-36b-v2",
+        "morph/morph-v3-large:batch"
       ],
       "avoid": []
     },
@@ -159,8 +159,8 @@
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "liquid/lfm-2.5-2.6b:free",
-        "google/gemma-3-4b-it"
+        "google/gemma-3-4b-it",
+        "nvidia/switchyard"
       ],
       "free": [],
       "fallback": [
@@ -181,8 +181,8 @@
         "openai/gpt-4",
         "meta-llama/llama-3.3-70b-instruct",
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
-        "mancer/weaver",
-        "google/gemma-2-27b-it"
+        "google/gemma-2-27b-it",
+        "thedrummer/skyfall-36b-v2"
       ],
       "avoid": []
     },
@@ -205,8 +205,8 @@
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "liquid/lfm-2.5-2.6b:free",
-        "google/gemma-3-4b-it"
+        "google/gemma-3-4b-it",
+        "nvidia/switchyard"
       ],
       "free": [],
       "fallback": [
@@ -227,8 +227,8 @@
         "openai/gpt-4",
         "meta-llama/llama-3.3-70b-instruct",
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
-        "mancer/weaver",
-        "google/gemma-2-27b-it"
+        "google/gemma-2-27b-it",
+        "thedrummer/skyfall-36b-v2"
       ],
       "avoid": []
     },
@@ -259,11 +259,11 @@
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
+        "openai/gpt-5:batch",
         "openai/gpt-5",
         "cohere/north-mini-code:free",
         "qwen/qwen3-coder-next",
-        "google/gemini-2.5-pro",
-        "mistralai/devstral-2512"
+        "google/gemini-2.5-pro"
       ],
       "candidate": [],
       "unknown": [
@@ -274,10 +274,9 @@
         "meta-llama/llama-3.3-70b-instruct",
         "morph/morph-v3-fast:batch",
         "qwen/qwen3-vl-8b-instruct",
-        "undi95/remm-slerp-l2-13b"
+        "qwen/qwen-plus"
       ],
       "avoid": [
-        "liquid/lfm-2.5-2.6b:free",
         "google/lyria-3-clip-preview",
         "google/lyria-3-pro-preview"
       ]
@@ -306,14 +305,14 @@
       ],
       "free": [],
       "fallback": [
+        "z-ai/glm-5.1",
         "anthropic/claude-sonnet-4.5:batch",
         "anthropic/claude-sonnet-4.5",
         "openai/gpt-5.1:batch",
         "openai/gpt-5.1",
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "qwen/qwen3.5-397b-a17b",
-        "mistralai/mistral-medium-3-5:batch",
-        "mistralai/mistral-medium-3-5"
+        "mistralai/mistral-medium-3-5:batch"
       ],
       "candidate": [],
       "unknown": [
@@ -321,13 +320,12 @@
         "openai/gpt-4-turbo:batch",
         "openai/gpt-4",
         "meta-llama/llama-3.3-70b-instruct",
-        "mancer/weaver",
         "google/gemma-2-27b-it",
         "qwen/qwen3-coder",
-        "thedrummer/skyfall-36b-v2"
+        "thedrummer/skyfall-36b-v2",
+        "morph/morph-v3-large:batch"
       ],
       "avoid": [
-        "liquid/lfm-2.5-2.6b:free",
         "google/lyria-3-clip-preview",
         "google/lyria-3-pro-preview"
       ]
@@ -359,11 +357,11 @@
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "google/gemma-4-31b-it:free",
         "google/gemma-4-26b-a4b-it:free",
+        "openai/gpt-5:batch",
         "openai/gpt-5",
         "cohere/north-mini-code:free",
         "qwen/qwen3-coder-next",
-        "google/gemini-2.5-pro",
-        "mistralai/devstral-2512"
+        "google/gemini-2.5-pro"
       ],
       "candidate": [],
       "unknown": [
@@ -374,10 +372,9 @@
         "meta-llama/llama-3.3-70b-instruct",
         "morph/morph-v3-fast:batch",
         "qwen/qwen3-vl-8b-instruct",
-        "undi95/remm-slerp-l2-13b"
+        "qwen/qwen-plus"
       ],
       "avoid": [
-        "liquid/lfm-2.5-2.6b:free",
         "google/lyria-3-clip-preview",
         "google/lyria-3-pro-preview"
       ]
@@ -411,18 +408,18 @@
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "liquid/lfm-2.5-2.6b:free",
+        "baidu/ernie-5.5-flash-preview:free",
         "dots-studio/dots-3-note-preview:free"
       ],
       "fallback": [
+        "z-ai/glm-5.1",
         "thinkingmachines/inkling",
         "anthropic/claude-sonnet-4.5:batch",
         "anthropic/claude-sonnet-4.5",
         "openai/gpt-5.1:batch",
         "openai/gpt-5.1",
         "nvidia/nemotron-3-ultra-550b-a55b",
-        "qwen/qwen3.5-397b-a17b",
-        "mistralai/mistral-medium-3-5:batch"
+        "qwen/qwen3.5-397b-a17b"
       ],
       "candidate": [],
       "unknown": [
@@ -433,7 +430,7 @@
         "meta-llama/llama-3.3-70b-instruct",
         "morph/morph-v3-fast:batch",
         "qwen/qwen3-vl-8b-instruct",
-        "undi95/remm-slerp-l2-13b"
+        "qwen/qwen-plus"
       ],
       "avoid": []
     },
@@ -461,14 +458,14 @@
       ],
       "free": [],
       "fallback": [
+        "z-ai/glm-5.1",
         "thinkingmachines/inkling",
         "anthropic/claude-sonnet-4.5:batch",
         "anthropic/claude-sonnet-4.5",
         "openai/gpt-5.1:batch",
         "openai/gpt-5.1",
         "nvidia/nemotron-3-ultra-550b-a55b",
-        "qwen/qwen3.5-397b-a17b",
-        "mistralai/mistral-medium-3-5:batch"
+        "qwen/qwen3.5-397b-a17b"
       ],
       "candidate": [],
       "unknown": [
@@ -479,7 +476,7 @@
         "meta-llama/llama-3.3-70b-instruct",
         "morph/morph-v3-fast:batch",
         "qwen/qwen3-vl-8b-instruct",
-        "undi95/remm-slerp-l2-13b"
+        "qwen/qwen-plus"
       ],
       "avoid": [
         "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -488,7 +485,7 @@
         "cohere/north-mini-code:free",
         "nvidia/nemotron-3.5-lightning:free",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "liquid/lfm-2.5-2.6b:free",
+        "baidu/ernie-5.5-flash-preview:free",
         "dots-studio/dots-3-note-preview:free"
       ]
     }
